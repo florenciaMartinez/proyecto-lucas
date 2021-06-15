@@ -1,0 +1,48 @@
+body {
+    background-image: url("ejemplo.jpg")
+    /* background-color: red; */
+}
+
+h3 {
+    color: white;
+}
+
+.menuFixed {
+    display: block!important;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 1000;
+    background-color: red;
+}
+
+.menuBlock2 {
+    display: none;
+    background: red;
+}
+
+.menuNone {
+    display: none;
+}
+
+.menuBlock {
+    background-color: green;
+}
+
+.menuMobile {
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+    .menuMobile {
+        display: block;
+        background: greenyellow;
+    }
+    .menuBlock {
+        display: none;
+    }
+    .menuBlock2 {
+        display: none;
+    }
+}
