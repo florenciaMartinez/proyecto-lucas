@@ -18,9 +18,53 @@
   .navBarDesktop1-enlaces :hover {
     color: #333333; }
 
+.navBarDesktop2 {
+  justify-content: center; }
+  .navBarDesktop2 a {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .navBarDesktop2 :hover {
+    color: #ffffff; }
+
 .logoNav img {
   width: 40px;
   height: 40px; }
+
+.menuNone {
+  transition: all ease .5s;
+  display: none; }
+
+.menuBlock2 {
+  transition: all ease .5s;
+  display: none;
+  background: #661725;
+  height: 109px;
+  width: 100%; }
+
+.menuFixed {
+  transition: all ease .5s;
+  display: block !important;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  height: 109px;
+  width: 100%;
+  max-width: 1000; }
+
+.menuBlock {
+  transition: all ease .5s; }
+
+.menuMobile {
+  display: none; }
 
 .contenedorInicio {
   width: 100%;
@@ -65,4 +109,19 @@
   .redesFlotantes ul {
     list-style: none; }
   .redesFlotantes li {
-    margin-bottom: 20px; }
+    margin-bottom: 32px;
+    color: #661725; }
+  .redesFlotantes img {
+    width: 30px;
+    height: 30px; }
+
+@media (max-width: 575.98px) {
+  .menuMobile {
+    display: block;
+    background: greenyellow; }
+  .menuBlock {
+    display: none; }
+  .menuBlock2 {
+    display: none; }
+  .menuFixed {
+    display: none; } }

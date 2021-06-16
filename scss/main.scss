@@ -4,7 +4,7 @@ $color-negro:#333333;
 $fuente-ubuntu:'Ubuntu',
 sans-serif;
 $imagen-inicio:url("../imagenes/inicio-menu-d.png");
-//Aplicado al navbar
+//Aplicado al navBar
 .navBarDesktop1 {
     background-color: none;
 }
@@ -29,11 +29,64 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
     }
 }
 
+.navBarDesktop2 {
+    justify-content: center;
+    a {
+        font-family: $fuente-ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-blanco;
+    }
+     :hover {
+        color: $color-blanco;
+    }
+}
+
 .logoNav img {
     width: 40px;
     height: 40px;
 }
 
+.menuNone {
+    transition: all ease .5s;
+    display: none;
+}
+
+.menuBlock2 {
+    transition: all ease .5s;
+    display: none;
+    background: $color-base;
+    height: 109px;
+    width: 100%;
+}
+
+.menuFixed {
+    transition: all ease .5s;
+    display: block !important;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    height: 109px;
+    width: 100%;
+    max-width: 1000;
+}
+
+.menuBlock {
+    transition: all ease .5s;
+}
+
+.menuMobile {
+    display: none;
+}
+
+//aplicado al inicio
 .contenedorInicio {
     width: 100%;
     height: 800px;
@@ -83,6 +136,28 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
         list-style: none;
     }
     li {
-        margin-bottom: 20px;
+        margin-bottom: 32px;
+        color: $color-base;
+    }
+    img {
+        width: 30px;
+        height: 30px
+    }
+}
+
+//medida celular
+@media (max-width: 575.98px) {
+    .menuMobile {
+        display: block;
+        background: greenyellow;
+    }
+    .menuBlock {
+        display: none;
+    }
+    .menuBlock2 {
+        display: none;
+    }
+    .menuFixed {
+        display: none;
     }
 }
