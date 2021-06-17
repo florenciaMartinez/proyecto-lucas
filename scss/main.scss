@@ -4,7 +4,9 @@ $color-negro:#333333;
 $fuente-ubuntu:'Ubuntu',
 sans-serif;
 $imagen-inicio:url("../imagenes/inicio-menu-d.png");
-//Aplicado al navBar
+$imagen-inicio-mobile:url("../imagenes/banner-mobile.png");
+$imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
+////////////////////////////////// fin variables///////////////
 .navBarDesktop1 {
     background-color: none;
 }
@@ -63,7 +65,7 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
     transition: all ease .5s;
     display: none;
     background: $color-base;
-    height: 109px;
+    height: 95px;
     width: 100%;
 }
 
@@ -73,7 +75,7 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
     position: fixed;
     z-index: 1000;
     top: 0;
-    height: 109px;
+    height: 95px;
     width: 100%;
     max-width: 1000;
 }
@@ -120,14 +122,23 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
         background: $color-base;
         box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
         border-radius: 10px;
+        a {
+            text-decoration: none;
+            color: $color-blanco;
+        }
     }
 }
 
+.logoMobile {
+    display: none;
+}
+
+//redes flotantes
 .redesFlotantes {
     display: block;
     color: #fff;
     position: fixed;
-    right: 8.33%;
+    right: 5%;
     top: 48%;
     bottom: 21%;
     text-align: center;
@@ -145,11 +156,102 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
     }
 }
 
+//aplicado a Soy Lucas
+.soyLucas {
+    margin-left: 198px;
+    margin-right: 200px;
+}
+
+.bloqueSoyLucas1 {
+    margin-bottom: 51px;
+}
+
+.imagenSoyLucas1 img {
+    width: 338px;
+    height: 338px;
+    padding: 0px;
+}
+
+.textoSoyLucas1 {
+    margin-left: 100px;
+    // font-family: $fuente-ubuntu;
+    h2 {
+        color: $color-base;
+        font-family: $fuente-ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 40px;
+    }
+    p {
+        font-family: $fuente-ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 129.9%;
+        margin-bottom: 40px;
+        color: $color-negro;
+    }
+    h4 {
+        font-family: $fuente-ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 34px;
+        color: $color-negro;
+        margin-bottom: 24px;
+    }
+}
+
+.textoSoyLucas2 {
+    margin-left: 0px;
+    h4 {
+        font-family: $fuente-ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 24px;
+        color: $color-negro;
+    }
+    p {
+        font-family: $fuente-ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 129.9%;
+        color: $color-negro;
+        margin-bottom: 40px;
+    }
+}
+
+.imagenSoyLucas2 img {
+    width: 338px;
+    height: 338px;
+    padding: 0px;
+    border-radius: 9px;
+    margin-left: 75px;
+}
+
+.leerSoyLucas p {
+    font-family: $fuente-ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: $color-base;
+}
+
+.imagenesMobile img {
+    display: none;
+}
+
 //medida celular
 @media (max-width: 575.98px) {
+    //aplicado a navBar
     .menuMobile {
         display: block;
-        background: greenyellow;
     }
     .menuBlock {
         display: none;
@@ -160,4 +262,154 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
     .menuFixed {
         display: none;
     }
+    .formatoNavMobile a {
+        font-family: $fuente-ubuntu;
+        color: $color-negro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    //aplicado a inicio
+    .contenedorInicio {
+        background-image: $imagen-inicio-mobile;
+        background-color: none;
+        height: 667px;
+    }
+    .textoInicio {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            // margin-left: 10px;
+            margin-right: 160px;
+            margin-bottom: 24px;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            // margin-left: 10px;
+            margin-right: 160px;
+            margin-bottom: 24px;
+        }
+        button {
+            // margin-left: 32px;
+            // margin-right: 32px;
+            width: 240px;
+            height: 48px;
+        }
+        .textoInicioMobile {
+            margin-left: 32px;
+        }
+    }
+    .logoMobile {
+        display: block;
+        img {
+            width: 90px;
+            height: 76px;
+            margin-left: 75px;
+            margin-bottom: 51px;
+        }
+    }
+    //redes flotantes
+    .redesFlotantes {
+        display: none;
+    }
+    .redesMobile {
+        margin-top: 100px;
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 0px;
+            justify-content: start;
+            margin: 0px;
+            li {
+                margin: 0px;
+            }
+        }
+    }
+    #barra2 {
+        display: none !important;
+    }
+    //acomodando SOy Lucas
+    .soyLucas {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .imagenSoyLucas1 {
+        padding: 0px;
+        img {
+            width: 290px;
+            height: 340px;
+            padding: 0px;
+            margin-left: 9px;
+            border-radius: 9px;
+        }
+    }
+    .textoSoyLucas1 {
+        margin-left: 0px;
+        h2 {
+            margin-top: 26px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 24px;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 129.9%;
+            margin-bottom: 32px;
+            margin-right: 64px;
+            margin-top: 0px;
+            // margin-bottom: 0px;
+        }
+        h4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+    }
+    .textoSoyLucas2 {
+        h4 {
+            margin-top: 0px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 24px;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 129.9%;
+            margin-right: 64px;
+        }
+    }
+    .imagenSoyLucas2 img {
+        display: none;
+    }
+    .imagenesMobile img {
+        display: inline-block;
+        width: 141px;
+        height: 178px;
+        border-radius: 9px;
+    }
+    // .fondoNavMobile {
+    //     background-image: $imagen-mobile-desplegable;
+    // }
 }
