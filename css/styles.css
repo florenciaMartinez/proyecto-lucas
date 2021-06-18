@@ -198,6 +198,110 @@
 .imagenesMobile img {
   display: none; }
 
+.grid {
+  color: #FFFFFF;
+  background: #661725;
+  height: 465px;
+  border-radius: 20px;
+  max-width: 943px;
+  position: relative; }
+
+section.youtube1 {
+  width: 100%; }
+
+.flex-icon1 ul, .flex-icon2 ul, .flex-icon3 ul {
+  list-style: none; }
+
+.button1 {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  color: #661725;
+  width: 250px;
+  height: 60px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px; }
+
+.button1 {
+  transition-duration: 0.4s; }
+
+.button1:hover {
+  background-color: #df082f;
+  color: #000000; }
+
+div.buttonDiv {
+  position: relative;
+  margin: auto; }
+
+.pregunta h2 {
+  margin: 45px 0 0 47px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+  align-items: center; }
+
+.tips {
+  margin: auto; }
+
+div.titulo h1 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  color: #661725; }
+
+.titulo p {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  align-items: center;
+  max-width: 943px; }
+
+div.fotoYoutube img {
+  border-radius: 20px;
+  width: 702.23px;
+  height: 395px;
+  position: absolute;
+  top: 147px;
+  left: 445px; }
+
+div.fotoYoutube2 img {
+  display: none; }
+
+ul li i {
+  font-size: 60px;
+  width: 60px; }
+
+.flex-icon1, .flex-icon2, .flex-icon3 {
+  display: flex;
+  text-align: center;
+  margin-bottom: -20px;
+  margin-left: 15px; }
+
+div.tip p {
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 129.9%;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Ubuntu; }
+
+.buttonDiv2 {
+  display: none; }
+
 @media (max-width: 575.98px) {
   .menuMobile {
     display: block; }
@@ -318,4 +422,64 @@
     display: inline-block;
     width: 141px;
     height: 178px;
-    border-radius: 9px; } }
+    border-radius: 9px; }
+  div.titulo h1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px; }
+  .buttonDiv2 {
+    display: block;
+    display: flex;
+    justify-content: center; }
+  .buttonDiv {
+    display: none;
+    justify-content: center; }
+  .flex-icon1, .flex-icon2, .flex-icon3 {
+    display: flex;
+    margin: auto; }
+  ul li i {
+    font-size: 40px;
+    width: 40px; }
+  div.tip p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center; }
+  .pregunta h2 {
+    margin: 45px 0 0 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px; }
+  .titulo p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 129.9%;
+    max-width: 943px; }
+  section.youtube {
+    padding: 0; }
+  .grid {
+    max-width: 414px; }
+  div.fotoYoutube img {
+    display: none;
+    border-radius: 20px;
+    width: 702.23px;
+    height: 395px;
+    position: absolute;
+    top: 147px;
+    left: 445px; }
+  div.fotoYoutube2 img {
+    position: absolute;
+    display: block;
+    width: 320px;
+    height: 175px;
+    padding: 0;
+    margin: 0; } }
