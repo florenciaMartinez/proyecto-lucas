@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var altura = $('.soyLucas').offset().top;
-    altura = altura - 200
+    altura = altura - 300
+
 
 
 
