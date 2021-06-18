@@ -16,6 +16,10 @@
     <script src="main.js"></script>
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/cbf25c1aba.js" crossorigin="anonymous"></script>
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <!-- css -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -235,15 +239,63 @@
                     <a href="" class="button1">SUSCRIBIRME <i class="fas fa-bell"></i></a>
                 </div>
         </section>
+        <section class="container blog">
+            <div class="tituloBlog">
+                <h1>Blog</h1>
+                <p>¿Qué tal un café y leer un rato sobre tu próxima aventura de viaje?</p>
+            </div>
+            <div>
+                <div id="slider" class="owl-carousel">
+                    <div class="content-area">
+                        <a href="#">
+                            <img src="/imagenes/Desktop-Blog-1.png" alt="">
+                        </a>
+                        <span class="custom-overlay">
+                            <span class="content-text">
+                                <h4>Recomendaciones para viajar low cost en Europa</h4>
+                                <p>Leer artículo</p>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="content-area">
+                        <a href="#">
+                            <img src="/imagenes/Desktop-Blog-2.png" alt="">
+                        </a>
+                        <span class="custom-overlay">
+                            <span class="content-text">
+                                <h4>¿Cómo conseguir un buen trabajo en Alemania?</h4>
+                                <p>Leer artículo</p>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- maty mete todo andetro de aca porque ese div contiene todo lo que baja para el menu mobile -->
 
-
-
-        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('#slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

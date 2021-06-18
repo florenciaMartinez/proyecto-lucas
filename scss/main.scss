@@ -320,8 +320,17 @@ div.titulo h1{
     line-height: 46px;
     color: $color-base;
 }
+div.tituloBlog h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: $color-base;
+    margin-top: 120px;
+}
 
-.titulo p{
+.titulo, .tituloBlog p{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
@@ -370,6 +379,61 @@ div.tip p{
 
 .buttonDiv2{
     display: none;
+}
+
+// BLOG 
+
+section.blog{
+     width: 100%;
+}
+
+#slider{
+    margin-top: 10%;
+}
+
+.content-area{
+    position: relative;
+}
+
+.content-area a img{
+    border-radius: 20px;
+}
+
+
+.custom-overlay{
+    position: absolute;
+    top:420px;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    height: 70%;
+}
+
+.content-text{
+    position: absolute;
+}
+
+.custom-overlay h4{
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    position: relative;
+}
+
+.custom-overlay p{
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+div#slider{
+    margin-top: 40px;
 }
 
 
@@ -620,5 +684,31 @@ div.tip p{
         top: -81px;
         left: 32px;
     }
-
+    //BLOG
+    .custom-overlay{
+        position: absolute;
+        top:145px;
+        bottom: 0;
+        left: 30px;
+        right: 30px;
+        height: 70%;
+    }
+    .custom-overlay h4{
+        color: #FFFFFF;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18,38px;
+        position: relative;
+    }
+    
+    .custom-overlay p{
+        color: #FFFFFF;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16,09px;
+    }
 }
