@@ -268,7 +268,7 @@ div.titulo h1 {
   align-items: center;
   max-width: 943px; }
 
-div.fotoYoutube img {
+div.fotoYoutube {
   border-radius: 20px;
   width: 702.23px;
   height: 395px;
@@ -276,7 +276,7 @@ div.fotoYoutube img {
   top: 147px;
   left: 445px; }
 
-div.fotoYoutube2 img {
+div.fotoYoutube2 {
   display: none; }
 
 ul li i {
@@ -456,19 +456,22 @@ div.tip p {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 18px; }
+    line-height: 18px;
+    margin-top: 120px; }
   .titulo p {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 129.9%;
-    max-width: 943px; }
+    max-width: 943px;
+    margin-bottom: 120px;
+    margin-top: 30px; }
   section.youtube {
     padding: 0; }
   .grid {
     max-width: 414px; }
-  div.fotoYoutube img {
+  div.fotoYoutube {
     display: none;
     border-radius: 20px;
     width: 702.23px;
@@ -476,10 +479,12 @@ div.tip p {
     position: absolute;
     top: 147px;
     left: 445px; }
-  div.fotoYoutube2 img {
+  div.fotoYoutube2 {
     position: absolute;
     display: block;
     width: 320px;
     height: 175px;
     padding: 0;
-    margin: 0; } }
+    margin: 0;
+    top: -81px;
+    left: 32px; } }
