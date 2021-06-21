@@ -283,15 +283,13 @@ section.youtube1{
     font-weight: bold;
     font-size: 21px;
     line-height: 24px;
-  }
-
-.button1 {
     transition-duration: 0.4s;
-}
+  }
   
 .button1:hover {
     background-color: #df082f;
     color: #000000;
+    text-decoration: none;
 }
 
 div.buttonDiv{
@@ -453,6 +451,72 @@ section.blog{
 div#slider{
     margin-top: 40px;
 }
+
+
+//FOOTER
+
+
+footer div.textoFooter{
+    height: 200px;
+    text-align: center;
+    h1{
+        color: $color-base;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 25px;
+    }
+
+    p{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 129.9%;
+        width: 489px;
+        align-self: center;
+        margin: auto;
+        a{
+            color: $color-base;
+        }
+    }
+}
+
+
+.buttonFooter{
+    background-color: $color-base;
+    box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
+    border-radius: 10px;
+    color:  $color-blanco;
+    padding: 20px 150px 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24px;
+    transition: 0.4s;
+}
+
+
+.buttonFooter:hover{
+    background-color: #df082f;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+footer div.footerButton{
+    text-align: center;
+    height: 480px;
+    background-image: url(/imagenes/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 //medida celular
