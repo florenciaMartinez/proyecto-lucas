@@ -7,13 +7,13 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
 $imagen-inicio-mobile:url("../imagenes/banner-mobile.png");
 $imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
 ////////////////////////////////// fin variables///////////////
-
 .navBarDesktop1 {
     background-color: none;
 }
 
 .navBarDesktop1-enlaces {
     justify-content: center;
+    flex-grow: 0;
     a {
         font-family: $fuente-ubuntu;
         font-style: normal;
@@ -250,10 +250,9 @@ $imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
 .imagenesMobile img {
     display: none;
 }
- 
-//Section Youtube
 
-.grid{
+//Section Youtube
+.grid {
     color: #FFFFFF;
     background: #661725;
     height: 465px;
@@ -262,10 +261,13 @@ $imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
     position: relative;
 }
 
-section.youtube1{
+section.youtube1 {
     width: 100%;
 }
-.flex-icon1 ul, .flex-icon2 ul, .flex-icon3 ul{
+
+.flex-icon1 ul,
+.flex-icon2 ul,
+.flex-icon3 ul {
     list-style: none;
 }
 
@@ -284,21 +286,20 @@ section.youtube1{
     font-size: 21px;
     line-height: 24px;
     transition-duration: 0.4s;
-  }
-  
+}
+
 .button1:hover {
     background-color: #df082f;
     color: #000000;
     text-decoration: none;
 }
 
-div.buttonDiv{
+div.buttonDiv {
     position: relative;
     margin: auto;
 }
 
-
-.pregunta h2{
+.pregunta h2 {
     margin: 45px 0 0 47px;
     font-family: Ubuntu;
     font-style: normal;
@@ -308,11 +309,12 @@ div.buttonDiv{
     display: flex;
     align-items: center;
 }
-.tips{
+
+.tips {
     margin: auto;
 }
 
-div.titulo h1{
+div.titulo h1 {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -320,7 +322,8 @@ div.titulo h1{
     line-height: 46px;
     color: $color-base;
 }
-div.tituloBlog h1{
+
+div.tituloBlog h1 {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -330,7 +333,8 @@ div.tituloBlog h1{
     margin-top: 120px;
 }
 
-.titulo, .tituloBlog p{
+.titulo,
+.tituloBlog p {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
@@ -340,33 +344,34 @@ div.tituloBlog h1{
     max-width: 943px;
 }
 
-
-div.fotoYoutube{
+div.fotoYoutube {
     border-radius: 20px;
     width: 702.23px;
     height: 395px;
     position: absolute;
     top: 147px;
-    left:445px;
+    left: 445px;
 }
-div.fotoYoutube2{
-    display: none;
-    
-    }
 
-ul li i{
+div.fotoYoutube2 {
+    display: none;
+}
+
+ul li i {
     font-size: 60px;
     width: 60px;
 }
 
-.flex-icon1, .flex-icon2, .flex-icon3{
+.flex-icon1,
+.flex-icon2,
+.flex-icon3 {
     display: flex;
     text-align: center;
     margin-bottom: -20px;
     margin-left: 15px;
 }
 
-div.tip p{
+div.tip p {
     justify-content: center;
     margin-left: 15px;
     margin-top: 15px;
@@ -377,44 +382,42 @@ div.tip p{
     font-family: Ubuntu;
 }
 
-.buttonDiv2{
+.buttonDiv2 {
     display: none;
 }
 
 // BLOG 
-
-section.blog{
+section.blog {
     width: 100%;
 }
 
-#slider{
+#slider {
     margin-top: 10%;
 }
 
-.content-area{
+.content-area {
     position: relative;
     margin: 0;
 }
 
-.content-area a img{
+.content-area a img {
     border-radius: 20px;
 }
 
-
-.custom-overlay{
+.custom-overlay {
     position: absolute;
-    top:420px;
+    top: 420px;
     bottom: 0;
     left: 30px;
     right: 30px;
     height: 70%;
 }
 
-.content-text{
+.content-text {
     position: absolute;
 }
 
-.custom-overlay h4{
+.custom-overlay h4 {
     color: #FFFFFF;
     font-family: Ubuntu;
     font-style: normal;
@@ -424,7 +427,7 @@ section.blog{
     position: relative;
 }
 
-.custom-overlay p{
+.custom-overlay p {
     color: #FFFFFF;
     font-family: Ubuntu;
     font-style: normal;
@@ -434,32 +437,29 @@ section.blog{
     display: inline-block;
     position: relative;
 }
-.custom-overlay p::before{
+
+.custom-overlay p::before {
     content: '';
     position: absolute;
     width: 140px;
     height: 8px;
     background-color: $color-base;
     border-radius: 5px;
-
 }
 
-.custom-overlay p::before{
+.custom-overlay p::before {
     bottom: -15px;
 }
 
-div#slider{
+div#slider {
     margin-top: 40px;
 }
 
-
 //FOOTER
-
-
-footer div.textoFooter{
+footer div.textoFooter {
     height: 200px;
     text-align: center;
-    h1{
+    h1 {
         color: $color-base;
         font-family: Ubuntu;
         font-style: normal;
@@ -468,8 +468,7 @@ footer div.textoFooter{
         line-height: 46px;
         margin-bottom: 25px;
     }
-
-    p{
+    p {
         font-family: Ubuntu;
         font-style: normal;
         font-weight: normal;
@@ -478,18 +477,17 @@ footer div.textoFooter{
         width: 489px;
         align-self: center;
         margin: auto;
-        a{
+        a {
             color: $color-base;
         }
     }
 }
 
-
-.buttonFooter{
+.buttonFooter {
     background-color: $color-base;
     box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
     border-radius: 10px;
-    color:  $color-blanco;
+    color: $color-blanco;
     padding: 20px 150px 20px 150px;
     text-align: center;
     text-decoration: none;
@@ -501,15 +499,13 @@ footer div.textoFooter{
     transition: 0.4s;
 }
 
-
-.buttonFooter:hover{
+.buttonFooter:hover {
     background-color: #df082f;
     color: #000000;
     text-decoration: none;
 }
 
-
-footer div.footerButton{
+footer div.footerButton {
     text-align: center;
     height: 480px;
     background-image: url(/imagenes/footer.png);
@@ -517,13 +513,15 @@ footer div.footerButton{
     background-size: cover;
 }
 
-
-
 //medida celular
 @media (max-width: 575.98px) {
     //aplicado a navBar
     .menuMobile {
         display: block;
+    }
+    .ubicacionMobile {
+        justify-content: start!important;
+        align-items: flex-start!important;
     }
     .menuBlock {
         display: none;
@@ -684,35 +682,34 @@ footer div.footerButton{
     // .fondoNavMobile {
     //     background-image: $imagen-mobile-desplegable;
     // }
-
-
     //Seccion youtube
-    div.titulo h1{
+    div.titulo h1 {
         font-family: Ubuntu;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
         line-height: 28px;
     }
-    
-    .buttonDiv2{
+    .buttonDiv2 {
         display: block;
         display: flex;
         justify-content: center;
     }
-    .buttonDiv{
+    .buttonDiv {
         display: none;
         justify-content: center;
     }
-    .flex-icon1, .flex-icon2, .flex-icon3{
+    .flex-icon1,
+    .flex-icon2,
+    .flex-icon3 {
         display: flex;
         margin: auto;
     }
-    ul li i{
+    ul li i {
         font-size: 40px;
         width: 40px;
     }
-    div.tip p{
+    div.tip p {
         font-family: Ubuntu;
         font-style: normal;
         font-weight: 500;
@@ -721,8 +718,7 @@ footer div.footerButton{
         display: flex;
         align-items: center;
     }
-
-    .pregunta h2{
+    .pregunta h2 {
         margin: 45px 0 0 35px;
         font-family: Ubuntu;
         font-style: normal;
@@ -731,7 +727,7 @@ footer div.footerButton{
         line-height: 18px;
         margin-top: 120px;
     }
-    .titulo p{
+    .titulo p {
         font-family: Ubuntu;
         font-style: normal;
         font-weight: normal;
@@ -741,33 +737,33 @@ footer div.footerButton{
         margin-bottom: 120px;
         margin-top: 30px;
     }
-    section.youtube{
+    section.youtube {
         padding: 0;
     }
-    .grid{
+    .grid {
         max-width: 414px;
     }
-    div.fotoYoutube{
+    div.fotoYoutube {
         display: none;
         border-radius: 20px;
         width: 702.23px;
         height: 395px;
         position: absolute;
         top: 147px;
-        left:445px;
+        left: 445px;
     }
-    div.fotoYoutube2{
+    div.fotoYoutube2 {
         position: absolute;
         display: block;
         width: 320px;
         height: 175px;
-        padding:0;
+        padding: 0;
         margin: 0;
         top: -81px;
         left: 32px;
     }
     //BLOG
-    .custom-overlay{
+    .custom-overlay {
         position: absolute;
         top: 180px;
         bottom: 0;
@@ -775,7 +771,7 @@ footer div.footerButton{
         right: 30px;
         height: 70%;
     }
-    .custom-overlay h4{
+    .custom-overlay h4 {
         color: #FFFFFF;
         font-family: Ubuntu;
         font-style: normal;
@@ -784,25 +780,23 @@ footer div.footerButton{
         line-height: 20px;
         position: relative;
     }
-    
-    .custom-overlay p{
+    .custom-overlay p {
         color: #FFFFFF;
         font-family: Ubuntu;
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
-        line-height: 16,09px;
+        line-height: 16, 09px;
     }
-    .custom-overlay p::before{
+    .custom-overlay p::before {
         content: '';
         position: absolute;
         width: 85px;
         height: 8px;
         background-color: $color-base;
         border-radius: 5px;
-    
     }
-    .custom-overlay p::before{
+    .custom-overlay p::before {
         bottom: -10px;
     }
 }

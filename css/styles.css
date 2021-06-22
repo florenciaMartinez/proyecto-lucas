@@ -1,12 +1,10 @@
 .navBarDesktop1 {
-    background-color: none;
-}
+  background-color: none; }
 
 .navBarDesktop1-enlaces {
-    justify-content: center;
-}
-
-.navBarDesktop1-enlaces a {
+  justify-content: center;
+  flex-grow: 0; }
+  .navBarDesktop1-enlaces a {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -17,18 +15,13 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #333333;
-}
-
-.navBarDesktop1-enlaces :hover {
-    color: #333333;
-}
+    color: #333333; }
+  .navBarDesktop1-enlaces :hover {
+    color: #333333; }
 
 .navBarDesktop2 {
-    justify-content: center;
-}
-
-.navBarDesktop2 a {
+  justify-content: center; }
+  .navBarDesktop2 a {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -39,438 +32,361 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
-}
-
-.navBarDesktop2 :hover {
-    color: #ffffff;
-}
+    color: #ffffff; }
+  .navBarDesktop2 :hover {
+    color: #ffffff; }
 
 .logoNav img {
-    width: 40px;
-    height: 40px;
-}
+  width: 40px;
+  height: 40px; }
 
 .menuNone {
-    transition: all ease .5s;
-    display: none;
-}
+  transition: all ease .5s;
+  display: none; }
 
 .menuBlock2 {
-    transition: all ease .5s;
-    display: none;
-    background: #661725;
-    height: 95px;
-    width: 100%;
-}
+  transition: all ease .5s;
+  display: none;
+  background: #661725;
+  height: 95px;
+  width: 100%; }
 
 .menuFixed {
-    transition: all ease .5s;
-    display: block !important;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    height: 95px;
-    width: 100%;
-    max-width: 1000;
-}
+  transition: all ease .5s;
+  display: block !important;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  height: 95px;
+  width: 100%;
+  max-width: 1000; }
 
 .menuBlock {
-    transition: all ease .5s;
-}
+  transition: all ease .5s; }
 
 .menuMobile {
-    display: none;
-}
+  display: none; }
 
 .contenedorInicio {
-    width: 100%;
-    height: 800px;
-    background-image: url("../imagenes/inicio-menu-d.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  width: 100%;
+  height: 800px;
+  background-image: url("../imagenes/inicio-menu-d.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .textoInicio {
-    width: 426px;
-    margin-left: 200px;
-    margin-top: 137px;
-}
-
-.textoInicio h1 {
+  width: 426px;
+  margin-left: 200px;
+  margin-top: 137px; }
+  .textoInicio h1 {
     margin-bottom: 40px;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 34px;
-}
-
-.textoInicio p {
+    line-height: 34px; }
+  .textoInicio p {
     margin-bottom: 60px;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 21px;
-    line-height: 24px;
-}
-
-.textoInicio button {
+    line-height: 24px; }
+  .textoInicio button {
     margin: 0px;
     color: #ffffff;
     width: 100%;
     background: #661725;
     box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
-    border-radius: 10px;
-}
-
-.textoInicio button a {
-    text-decoration: none;
-    color: #ffffff;
-}
+    border-radius: 10px; }
+    .textoInicio button a {
+      text-decoration: none;
+      color: #ffffff; }
 
 .logoMobile {
-    display: none;
-}
+  display: none; }
 
 .redesFlotantes {
-    display: block;
-    color: #fff;
-    position: fixed;
-    right: 5%;
-    top: 48%;
-    bottom: 21%;
-    text-align: center;
-    z-index: 999;
-}
-
-.redesFlotantes ul {
-    list-style: none;
-}
-
-.redesFlotantes li {
+  display: block;
+  color: #fff;
+  position: fixed;
+  right: 5%;
+  top: 48%;
+  bottom: 21%;
+  text-align: center;
+  z-index: 999; }
+  .redesFlotantes ul {
+    list-style: none; }
+  .redesFlotantes li {
     margin-bottom: 32px;
-    color: #661725;
-}
-
-.redesFlotantes img {
+    color: #661725; }
+  .redesFlotantes img {
     width: 30px;
-    height: 30px;
-}
+    height: 30px; }
 
 .soyLucas {
-    margin-left: 198px;
-    margin-right: 200px;
-    margin-top: 100px;
-}
+  margin-left: 198px;
+  margin-right: 200px;
+  margin-top: 100px; }
 
 .bloqueSoyLucas1 {
-    margin-bottom: 51px;
-}
+  margin-bottom: 51px; }
 
 .imagenSoyLucas1 img {
-    width: 338px;
-    height: 338px;
-    padding: 0px;
-}
+  width: 338px;
+  height: 338px;
+  padding: 0px; }
 
 .textoSoyLucas1 {
-    margin-left: 100px;
-}
-
-.textoSoyLucas1 h2 {
+  margin-left: 100px; }
+  .textoSoyLucas1 h2 {
     color: #661725;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 46px;
-    margin-bottom: 40px;
-}
-
-.textoSoyLucas1 p {
+    margin-bottom: 40px; }
+  .textoSoyLucas1 p {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 129.9%;
     margin-bottom: 40px;
-    color: #333333;
-}
-
-.textoSoyLucas1 h4 {
+    color: #333333; }
+  .textoSoyLucas1 h4 {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 34px;
     color: #333333;
-    margin-bottom: 24px;
-}
+    margin-bottom: 24px; }
 
 .textoSoyLucas2 {
-    margin-left: 0px;
-}
-
-.textoSoyLucas2 h4 {
+  margin-left: 0px; }
+  .textoSoyLucas2 h4 {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 34px;
     margin-bottom: 24px;
-    color: #333333;
-}
-
-.textoSoyLucas2 p {
+    color: #333333; }
+  .textoSoyLucas2 p {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 129.9%;
     color: #333333;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px; }
 
 .imagenSoyLucas2 img {
-    width: 338px;
-    height: 338px;
-    padding: 0px;
-    border-radius: 9px;
-    margin-left: 75px;
-}
+  width: 338px;
+  height: 338px;
+  padding: 0px;
+  border-radius: 9px;
+  margin-left: 75px; }
 
 .leerSoyLucas p {
-    font-family: "Ubuntu", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    color: #661725;
-}
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #661725; }
 
 .imagenesMobile img {
-    display: none;
-}
+  display: none; }
 
 .grid {
-    color: #FFFFFF;
-    background: #661725;
-    height: 465px;
-    border-radius: 20px;
-    max-width: 943px;
-    position: relative;
-}
+  color: #FFFFFF;
+  background: #661725;
+  height: 465px;
+  border-radius: 20px;
+  max-width: 943px;
+  position: relative; }
 
 section.youtube1 {
-    width: 100%;
-}
+  width: 100%; }
 
 .flex-icon1 ul,
 .flex-icon2 ul,
 .flex-icon3 ul {
-    list-style: none;
-}
+  list-style: none; }
 
 .button1 {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    color: #661725;
-    width: 250px;
-    height: 60px;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 24px;
-    transition-duration: 0.4s;
-}
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  color: #661725;
+  width: 250px;
+  height: 60px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  transition-duration: 0.4s; }
 
 .button1:hover {
-    background-color: #df082f;
-    color: #000000;
-    text-decoration: none;
-}
+  background-color: #df082f;
+  color: #000000;
+  text-decoration: none; }
 
 div.buttonDiv {
-    position: relative;
-    margin: auto;
-}
+  position: relative;
+  margin: auto; }
 
 .pregunta h2 {
-    margin: 45px 0 0 47px;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 34px;
-    display: flex;
-    align-items: center;
-}
+  margin: 45px 0 0 47px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+  align-items: center; }
 
 .tips {
-    margin: auto;
-}
+  margin: auto; }
 
 div.titulo h1 {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 46px;
-    color: #661725;
-}
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  color: #661725; }
 
 div.tituloBlog h1 {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 46px;
-    color: #661725;
-    margin-top: 120px;
-}
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  color: #661725;
+  margin-top: 120px; }
 
 .titulo,
 .tituloBlog p {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 34px;
-    align-items: center;
-    max-width: 943px;
-}
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  align-items: center;
+  max-width: 943px; }
 
 div.fotoYoutube {
-    border-radius: 20px;
-    width: 702.23px;
-    height: 395px;
-    position: absolute;
-    top: 147px;
-    left: 445px;
-}
+  border-radius: 20px;
+  width: 702.23px;
+  height: 395px;
+  position: absolute;
+  top: 147px;
+  left: 445px; }
 
 div.fotoYoutube2 {
-    display: none;
-}
+  display: none; }
 
 ul li i {
-    font-size: 60px;
-    width: 60px;
-}
+  font-size: 60px;
+  width: 60px; }
 
 .flex-icon1,
 .flex-icon2,
 .flex-icon3 {
-    display: flex;
-    text-align: center;
-    margin-bottom: -20px;
-    margin-left: 15px;
-}
+  display: flex;
+  text-align: center;
+  margin-bottom: -20px;
+  margin-left: 15px; }
 
 div.tip p {
-    justify-content: center;
-    margin-left: 15px;
-    margin-top: 15px;
-    font-size: 18px;
-    line-height: 129.9%;
-    font-style: normal;
-    font-weight: normal;
-    font-family: Ubuntu;
-}
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 129.9%;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Ubuntu; }
 
 .buttonDiv2 {
-    display: none;
-}
+  display: none; }
 
 section.blog {
-    width: 100%;
-}
+  width: 100%; }
 
 #slider {
-    margin-top: 10%;
-}
+  margin-top: 10%; }
 
 .content-area {
-    position: relative;
-    margin: 0;
-}
+  position: relative;
+  margin: 0; }
 
 .content-area a img {
-    border-radius: 20px;
-}
+  border-radius: 20px; }
 
 .custom-overlay {
-    position: absolute;
-    top: 420px;
-    bottom: 0;
-    left: 30px;
-    right: 30px;
-    height: 70%;
-}
+  position: absolute;
+  top: 420px;
+  bottom: 0;
+  left: 30px;
+  right: 30px;
+  height: 70%; }
 
 .content-text {
-    position: absolute;
-}
+  position: absolute; }
 
 .custom-overlay h4 {
-    color: #FFFFFF;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 34px;
-    position: relative;
-}
+  color: #FFFFFF;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  position: relative; }
 
 .custom-overlay p {
-    color: #FFFFFF;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    display: inline-block;
-    position: relative;
-}
+  color: #FFFFFF;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-block;
+  position: relative; }
 
 .custom-overlay p::before {
-    content: '';
-    position: absolute;
-    width: 140px;
-    height: 8px;
-    background-color: #661725;
-    border-radius: 5px;
-}
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 8px;
+  background-color: #661725;
+  border-radius: 5px; }
 
 .custom-overlay p::before {
-    bottom: -15px;
-}
+  bottom: -15px; }
 
 div#slider {
-    margin-top: 40px;
-}
+  margin-top: 40px; }
 
 footer div.textoFooter {
-    height: 200px;
-    text-align: center;
-}
-
-footer div.textoFooter h1 {
+  height: 200px;
+  text-align: center; }
+  footer div.textoFooter h1 {
     color: #661725;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 46px;
-    margin-bottom: 25px;
-}
-
-footer div.textoFooter p {
+    margin-bottom: 25px; }
+  footer div.textoFooter p {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
@@ -478,306 +394,256 @@ footer div.textoFooter p {
     line-height: 129.9%;
     width: 489px;
     align-self: center;
-    margin: auto;
-}
-
-footer div.textoFooter p a {
-    color: #661725;
-}
+    margin: auto; }
+    footer div.textoFooter p a {
+      color: #661725; }
 
 .buttonFooter {
-    background-color: #661725;
-    box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 20px 150px 20px 150px;
-    text-align: center;
-    text-decoration: none;
+  background-color: #661725;
+  box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px 150px 20px 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  transition: 0.4s; }
+
+.buttonFooter:hover {
+  background-color: #df082f;
+  color: #000000;
+  text-decoration: none; }
+
+footer div.footerButton {
+  text-align: center;
+  height: 480px;
+  background-image: url(/imagenes/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media (max-width: 575.98px) {
+  .menuMobile {
+    display: block; }
+  .ubicacionMobile {
+    justify-content: start !important;
+    align-items: flex-start !important; }
+  .menuBlock {
+    display: none; }
+  .menuBlock2 {
+    display: none; }
+  .menuFixed {
+    display: none; }
+  .formatoNavMobile a {
+    font-family: "Ubuntu", sans-serif;
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px; }
+  .contenedorInicio {
+    background-image: url("../imagenes/banner-mobile.png");
+    background-color: none;
+    height: 667px; }
+  .textoInicio {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .textoInicio h1 {
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      margin-right: 160px;
+      margin-bottom: 24px; }
+    .textoInicio p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      margin-right: 160px;
+      margin-bottom: 24px; }
+    .textoInicio button {
+      width: 240px;
+      height: 48px; }
+    .textoInicio .textoInicioMobile {
+      margin-left: 32px; }
+  .logoMobile {
+    display: block; }
+    .logoMobile img {
+      width: 90px;
+      height: 76px;
+      margin-left: 75px;
+      margin-bottom: 51px; }
+  .redesFlotantes {
+    display: none; }
+  .redesMobile {
+    margin-top: 100px; }
+    .redesMobile ul {
+      list-style: none;
+      display: flex;
+      padding: 0px;
+      justify-content: start;
+      margin: 0px; }
+      .redesMobile ul li {
+        margin: 0px; }
+  #barra2 {
+    display: none !important; }
+  .soyLucas {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .imagenSoyLucas1 {
+    padding: 0px; }
+    .imagenSoyLucas1 img {
+      width: 290px;
+      height: 340px;
+      padding: 0px;
+      margin-left: 9px;
+      border-radius: 9px; }
+  .textoSoyLucas1 {
+    margin-left: 0px; }
+    .textoSoyLucas1 h2 {
+      margin-top: 26px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 24px; }
+    .textoSoyLucas1 p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 129.9%;
+      margin-bottom: 32px;
+      margin-right: 64px;
+      margin-top: 0px; }
+    .textoSoyLucas1 h4 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 24px;
+      margin-bottom: 16px; }
+  .textoSoyLucas2 h4 {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px; }
+  .textoSoyLucas2 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 129.9%;
+    margin-right: 64px; }
+  .imagenSoyLucas2 img {
+    display: none; }
+  .imagenesMobile img {
+    display: inline-block;
+    width: 141px;
+    height: 178px;
+    border-radius: 9px; }
+  div.titulo h1 {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
-    font-size: 21px;
-    line-height: 24px;
-    transition: 0.4s;
-}
-
-.buttonFooter:hover {
-    background-color: #df082f;
-    color: #000000;
-    text-decoration: none;
-}
-
-footer div.footerButton {
-    text-align: center;
-    height: 480px;
-    background-image: url(../imagenes/footer.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media (max-width: 575.98px) {
-    .menuMobile {
-        display: block;
-    }
-    .menuBlock {
-        display: none;
-    }
-    .menuBlock2 {
-        display: none;
-    }
-    .menuFixed {
-        display: none;
-    }
-    .formatoNavMobile a {
-        font-family: "Ubuntu", sans-serif;
-        color: #333333;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-    }
-    .contenedorInicio {
-        background-image: url("../imagenes/banner-mobile.png");
-        background-color: none;
-        height: 667px;
-    }
-    .textoInicio {
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .textoInicio h1 {
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-        margin-right: 160px;
-        margin-bottom: 24px;
-    }
-    .textoInicio p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        margin-right: 160px;
-        margin-bottom: 24px;
-    }
-    .textoInicio button {
-        width: 240px;
-        height: 48px;
-    }
-    .textoInicio .textoInicioMobile {
-        margin-left: 32px;
-    }
-    .logoMobile {
-        display: block;
-    }
-    .logoMobile img {
-        width: 90px;
-        height: 76px;
-        margin-left: 75px;
-        margin-bottom: 51px;
-    }
-    .redesFlotantes {
-        display: none;
-    }
-    .redesMobile {
-        margin-top: 100px;
-    }
-    .redesMobile ul {
-        list-style: none;
-        display: flex;
-        padding: 0px;
-        justify-content: start;
-        margin: 0px;
-    }
-    .redesMobile ul li {
-        margin: 0px;
-    }
-    #barra2 {
-        display: none !important;
-    }
-    .soyLucas {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .imagenSoyLucas1 {
-        padding: 0px;
-    }
-    .imagenSoyLucas1 img {
-        width: 290px;
-        height: 340px;
-        padding: 0px;
-        margin-left: 9px;
-        border-radius: 9px;
-    }
-    .textoSoyLucas1 {
-        margin-left: 0px;
-    }
-    .textoSoyLucas1 h2 {
-        margin-top: 26px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 24px;
-    }
-    .textoSoyLucas1 p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 129.9%;
-        margin-bottom: 32px;
-        margin-right: 64px;
-        margin-top: 0px;
-    }
-    .textoSoyLucas1 h4 {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 21px;
-        line-height: 24px;
-        margin-bottom: 16px;
-    }
-    .textoSoyLucas2 h4 {
-        margin-top: 0px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 21px;
-        line-height: 24px;
-    }
-    .textoSoyLucas2 p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 129.9%;
-        margin-right: 64px;
-    }
-    .imagenSoyLucas2 img {
-        display: none;
-    }
-    .imagenesMobile img {
-        display: inline-block;
-        width: 141px;
-        height: 178px;
-        border-radius: 9px;
-    }
-    div.titulo h1 {
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .buttonDiv2 {
-        display: block;
-        display: flex;
-        justify-content: center;
-    }
-    .buttonDiv {
-        display: none;
-        justify-content: center;
-    }
-    .flex-icon1,
-    .flex-icon2,
-    .flex-icon3 {
-        display: flex;
-        margin: auto;
-    }
-    ul li i {
-        font-size: 40px;
-        width: 40px;
-    }
-    div.tip p {
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 18px;
-        display: flex;
-        align-items: center;
-    }
-    .pregunta h2 {
-        margin: 45px 0 0 35px;
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 18px;
-        margin-top: 120px;
-    }
-    .titulo p {
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 129.9%;
-        max-width: 943px;
-        margin-bottom: 120px;
-        margin-top: 30px;
-    }
-    section.youtube {
-        padding: 0;
-    }
-    .grid {
-        max-width: 414px;
-    }
-    div.fotoYoutube {
-        display: none;
-        border-radius: 20px;
-        width: 702.23px;
-        height: 395px;
-        position: absolute;
-        top: 147px;
-        left: 445px;
-    }
-    div.fotoYoutube2 {
-        position: absolute;
-        display: block;
-        width: 320px;
-        height: 175px;
-        padding: 0;
-        margin: 0;
-        top: -81px;
-        left: 32px;
-    }
-    .custom-overlay {
-        position: absolute;
-        top: 180px;
-        bottom: 0;
-        left: 30px;
-        right: 30px;
-        height: 70%;
-    }
-    .custom-overlay h4 {
-        color: #FFFFFF;
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 20px;
-        position: relative;
-    }
-    .custom-overlay p {
-        color: #FFFFFF;
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16, 09px;
-    }
-    .custom-overlay p::before {
-        content: '';
-        position: absolute;
-        width: 85px;
-        height: 8px;
-        background-color: #661725;
-        border-radius: 5px;
-    }
-    .custom-overlay p::before {
-        bottom: -10px;
-    }
-}
+    font-size: 24px;
+    line-height: 28px; }
+  .buttonDiv2 {
+    display: block;
+    display: flex;
+    justify-content: center; }
+  .buttonDiv {
+    display: none;
+    justify-content: center; }
+  .flex-icon1,
+  .flex-icon2,
+  .flex-icon3 {
+    display: flex;
+    margin: auto; }
+  ul li i {
+    font-size: 40px;
+    width: 40px; }
+  div.tip p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center; }
+  .pregunta h2 {
+    margin: 45px 0 0 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 120px; }
+  .titulo p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 129.9%;
+    max-width: 943px;
+    margin-bottom: 120px;
+    margin-top: 30px; }
+  section.youtube {
+    padding: 0; }
+  .grid {
+    max-width: 414px; }
+  div.fotoYoutube {
+    display: none;
+    border-radius: 20px;
+    width: 702.23px;
+    height: 395px;
+    position: absolute;
+    top: 147px;
+    left: 445px; }
+  div.fotoYoutube2 {
+    position: absolute;
+    display: block;
+    width: 320px;
+    height: 175px;
+    padding: 0;
+    margin: 0;
+    top: -81px;
+    left: 32px; }
+  .custom-overlay {
+    position: absolute;
+    top: 180px;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    height: 70%; }
+  .custom-overlay h4 {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative; }
+  .custom-overlay p {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16, 09px; }
+  .custom-overlay p::before {
+    content: '';
+    position: absolute;
+    width: 85px;
+    height: 8px;
+    background-color: #661725;
+    border-radius: 5px; }
+  .custom-overlay p::before {
+    bottom: -10px; } }
