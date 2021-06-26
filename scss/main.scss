@@ -96,6 +96,7 @@ $imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
     background-image: $imagen-inicio;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .textoInicio {
@@ -350,7 +351,7 @@ div.fotoYoutube {
     height: 395px;
     position: absolute;
     top: 147px;
-    left: 445px;
+    left: 420px;
 }
 
 div.fotoYoutube2 {
@@ -455,6 +456,12 @@ div#slider {
     margin-top: 40px;
 }
 
+//NEWSLETTER
+section.newsletter{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 //FOOTER
 footer div.textoFooter {
     height: 200px;
@@ -480,6 +487,7 @@ footer div.textoFooter {
         a {
             color: $color-base;
         }
+
     }
 }
 
@@ -799,4 +807,67 @@ footer div.footerButton {
     .custom-overlay p::before {
         bottom: -10px;
     }
+    footer div.textoFooter {
+        height: 200px;
+        text-align: center;
+        h1 {
+            color: $color-base;
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        p {
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            text-align: center;
+            width: 311px;
+            a {
+                color: $color-base;
+            }
+    
+        }
+    }
+    .buttonFooter {
+        background-color: $color-base;
+        box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
+        border-radius: 10px;
+        color: $color-blanco;
+        padding: 20px 100px 20px 100px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 24px;
+        transition: 0.4s;
+    }
+    div.tituloBlog{
+        h1{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 40px;
+        }
+        p{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 129.9%;
+        max-width: 943px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        }
+    
+
+    }
+
 }
