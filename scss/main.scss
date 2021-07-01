@@ -7,6 +7,8 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
 $imagen-inicio-mobile:url("../imagenes/banner-mobile.png");
 $imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
 ////////////////////////////////// fin variables///////////////
+
+
 .navBarDesktop1 {
     background-color: none;
 }
@@ -520,7 +522,8 @@ footer div.footerButton {
 }
 
 //medida celular
-@media (max-width: 575.98px) {
+@media (max-width: 375px) {
+   
     //aplicado a navBar
     .menuMobile {
         display: block;
