@@ -151,6 +151,12 @@ div.imgNewsletter2 {
 .menuMobile {
   display: none; }
 
+.inicioMobile {
+  display: none; }
+
+.inicioDesktop {
+  display: block; }
+
 .contenedorInicio {
   width: 100%;
   height: 800px;
@@ -467,7 +473,8 @@ section.newsletter {
 
 footer div.textoFooter {
   height: 200px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 8%; }
   footer div.textoFooter h1 {
     color: #661725;
     font-family: Ubuntu;
@@ -517,10 +524,14 @@ footer div.footerButton {
 
 @media (max-width: 375px) {
   .menuMobile {
-    display: block; }
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../imagenes/banner-mobile.png"); }
   .ubicacionMobile {
     justify-content: start !important;
-    align-items: flex-start !important; }
+    align-items: flex-start !important;
+    margin-top: 3%; }
   .menuBlock {
     display: none; }
   .menuBlock2 {
@@ -534,13 +545,20 @@ footer div.footerButton {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px; }
+  .inicioMobile {
+    display: block;
+    background-image: url("../imagenes/banner-mobile.png"); }
+  .contenedorInicio {
+    display: none; }
+  .inicioDesktop {
+    display: none; }
   .contenedorInicio {
     background-image: url("../imagenes/banner-mobile.png");
     background-color: none;
     height: 667px; }
   .textoInicio {
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 6%;
     margin-right: 0px;
     display: flex;
     flex-direction: column;
@@ -587,10 +605,14 @@ footer div.footerButton {
   #barra2 {
     display: none !important; }
   .soyLucas {
+    width: 100%;
     margin-left: 0px;
-    margin-right: 0px; }
+    margin-right: 0px;
+    margin-top: 8%px;
+    margin-bottom: 0px; }
   .imagenSoyLucas1 {
-    padding: 0px; }
+    padding: 0px;
+    margin-left: 9%; }
     .imagenSoyLucas1 img {
       width: 290px;
       height: 340px;
@@ -598,7 +620,7 @@ footer div.footerButton {
       margin-left: 9px;
       border-radius: 9px; }
   .textoSoyLucas1 {
-    margin-left: 0px; }
+    margin-left: 9%; }
     .textoSoyLucas1 h2 {
       margin-top: 26px;
       font-style: normal;
@@ -620,18 +642,20 @@ footer div.footerButton {
       font-size: 21px;
       line-height: 24px;
       margin-bottom: 16px; }
-  .textoSoyLucas2 h4 {
-    margin-top: 0px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 24px; }
-  .textoSoyLucas2 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 129.9%;
-    margin-right: 64px; }
+  .textoSoyLucas2 {
+    margin-left: 9%; }
+    .textoSoyLucas2 h4 {
+      margin-top: 0px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 24px; }
+    .textoSoyLucas2 p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 129.9%;
+      margin-right: 64px; }
   .imagenSoyLucas2 img {
     display: none; }
   .imagenesMobile img {

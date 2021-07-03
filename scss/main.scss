@@ -7,30 +7,30 @@ $imagen-inicio:url("../imagenes/inicio-menu-d.png");
 $imagen-inicio-mobile:url("../imagenes/banner-mobile.png");
 $imagen-mobile-desplegable:url("../imagenes/menu-mobile.png");
 ////////////////////////////////// fin variables///////////////
-main{
+main {
     overflow: hidden;
 }
 
-section.newsletter{
+section.newsletter {
     text-align: center !important;
     justify-content: center !important;
 }
 
-#mc_embed_signup form{
-   align-self:  center !important;
-   text-align: center !important;
-   left: 250px;
+#mc_embed_signup form {
+    align-self: center !important;
+    text-align: center !important;
+    left: 250px;
 }
 
-#mc_embed_signup_scroll{
+#mc_embed_signup_scroll {
     display: flex;
-    height: 80px;   
-    max-width: 943px !important; 
+    height: 80px;
+    max-width: 943px !important;
     position: relative !important;
     z-index: 30;
 }
 
-#mc_embed_signup input.email{
+#mc_embed_signup input.email {
     border-radius: 20px 0 0 20px !important;
     margin: 0 !important;
     font-family: Ubuntu !important;
@@ -40,9 +40,9 @@ section.newsletter{
     line-height: 34px !important;
 }
 
-div.imgNewsletter{
+div.imgNewsletter {
     text-align: center !important;
-    img{
+    img {
         border-radius: 20px;
         position: relative;
         top: -50px;
@@ -51,7 +51,8 @@ div.imgNewsletter{
         box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
     }
 }
-form p{
+
+form p {
     font-family: Ubuntu !important;
     font-style: normal !important;
     font-weight: 500 !important;
@@ -65,8 +66,7 @@ form p{
     margin-top: 30px;
 }
 
-
-#mc_embed_signup_scroll .button{
+#mc_embed_signup_scroll .button {
     margin: 0px !important;
     color: $color-blanco !important;
     width: 100% !important;
@@ -75,35 +75,35 @@ form p{
     border-radius: 0 20px 20px 0 !important;
 }
 
-#mc_embed_signup input.button{
+#mc_embed_signup input.button {
     width: 184px !important;
     margin: 0 !important;
     height: 79px !important;
     border-radius: 15px;
 }
 
-#mc_embed_signup .button{
+#mc_embed_signup .button {
     font-family: Ubuntu !important;
     font-style: normal !important;
     font-weight: 500 !important;
     font-size: 21px !important;
     line-height: 24px !important;
     display: flex;
-    align-items: center ;
+    align-items: center;
     text-align: center;
     text-transform: uppercase;
 }
 
-div.imgNewsletter2{
+div.imgNewsletter2 {
     display: none;
     text-align: center !important;
-    img{
+    img {
         position: relative;
         top: -50px;
         z-index: 20;
         box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
     }
-} 
+}
 
 .navBarDesktop1 {
     background-color: none;
@@ -188,6 +188,14 @@ div.imgNewsletter2{
 }
 
 //aplicado al inicio
+.inicioMobile {
+    display: none;
+}
+
+.inicioDesktop {
+    display: block;
+}
+
 .contenedorInicio {
     width: 100%;
     height: 800px;
@@ -361,6 +369,8 @@ div.imgNewsletter2{
 
 section.youtube1 {
     width: 100%;
+    // margin-left: 14%;
+    //ver como quedaria
 }
 
 .flex-icon1 ul,
@@ -487,6 +497,8 @@ div.tip p {
 // BLOG 
 section.blog {
     width: 100%;
+    // margin-left: 14%;
+    //ver como quedaria 
 }
 
 #slider {
@@ -565,6 +577,7 @@ section.newsletter {
 footer div.textoFooter {
     height: 200px;
     text-align: center;
+    margin-top: 8%;
     h1 {
         color: $color-base;
         font-family: Ubuntu;
@@ -621,14 +634,17 @@ footer div.footerButton {
 
 //medida celular
 @media (max-width: 375px) {
-   
     //aplicado a navBar
     .menuMobile {
         display: block;
+        margin: 0px;
+        padding: 0px;
+        background-image: $imagen-inicio-mobile;
     }
     .ubicacionMobile {
         justify-content: start!important;
         align-items: flex-start!important;
+        margin-top: 3%;
     }
     .menuBlock {
         display: none;
@@ -648,6 +664,16 @@ footer div.footerButton {
         line-height: 21px;
     }
     //aplicado a inicio
+    .inicioMobile {
+        display: block;
+        background-image: $imagen-inicio-mobile;
+    }
+    .contenedorInicio {
+        display: none;
+    }
+    .inicioDesktop {
+        display: none;
+    }
     .contenedorInicio {
         background-image: $imagen-inicio-mobile;
         background-color: none;
@@ -655,7 +681,7 @@ footer div.footerButton {
     }
     .textoInicio {
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 6%;
         margin-right: 0px;
         display: flex;
         flex-direction: column;
@@ -720,11 +746,15 @@ footer div.footerButton {
     }
     //acomodando SOy Lucas
     .soyLucas {
+        width: 100%;
         margin-left: 0px;
         margin-right: 0px;
+        margin-top: 8%px;
+        margin-bottom: 0px;
     }
     .imagenSoyLucas1 {
         padding: 0px;
+        margin-left: 9%;
         img {
             width: 290px;
             height: 340px;
@@ -734,7 +764,7 @@ footer div.footerButton {
         }
     }
     .textoSoyLucas1 {
-        margin-left: 0px;
+        margin-left: 9%;
         h2 {
             margin-top: 26px;
             font-style: normal;
@@ -751,7 +781,6 @@ footer div.footerButton {
             margin-bottom: 32px;
             margin-right: 64px;
             margin-top: 0px;
-            // margin-bottom: 0px;
         }
         h4 {
             font-style: normal;
@@ -762,6 +791,7 @@ footer div.footerButton {
         }
     }
     .textoSoyLucas2 {
+        margin-left: 9%;
         h4 {
             margin-top: 0px;
             font-style: normal;
@@ -786,9 +816,6 @@ footer div.footerButton {
         height: 178px;
         border-radius: 9px;
     }
-    // .fondoNavMobile {
-    //     background-image: $imagen-mobile-desplegable;
-    // }
     //Seccion youtube
     div.titulo h1 {
         font-family: Ubuntu;
@@ -911,6 +938,7 @@ footer div.footerButton {
     footer div.textoFooter {
         height: 200px;
         text-align: center;
+        // margin-top: 5%;
         h1 {
             color: $color-base;
             font-family: Ubuntu;
@@ -967,28 +995,28 @@ footer div.footerButton {
             margin-top: 30px;
         }
     }
-    div.imgNewsletter{
+    div.imgNewsletter {
         display: none;
         text-align: center !important;
-        img{
+        img {
             border-radius: 20px;
             position: relative;
             top: -50px;
             z-index: 20;
             left: -25px !important;
         }
-    } 
-    div.imgNewsletter2{
+    }
+    div.imgNewsletter2 {
         display: block;
         text-align: center !important;
-        img{
+        img {
             position: relative;
             top: -50px;
             z-index: 20;
             box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
         }
-    } 
-    #mc_embed_signup input.email{
+    }
+    #mc_embed_signup input.email {
         border-radius: 10px 0 0 10px !important;
         margin: 0 !important;
         font-family: Ubuntu !important;
@@ -997,7 +1025,7 @@ footer div.footerButton {
         font-size: 16px !important;
         line-height: 18px !important;
     }
-    form p{
+    form p {
         font-family: Ubuntu !important;
         font-style: normal !important;
         font-size: 16px !important;
@@ -1011,37 +1039,37 @@ footer div.footerButton {
         margin-bottom: 40px !important;
         margin-top: -10px !important;
     }
-    #mc_embed_signup form{
-        align-self:  center !important;
+    #mc_embed_signup form {
+        align-self: center !important;
         text-align: center !important;
         left: 40px;
         width: 311px;
-     }
-     #mc_embed_signup .button{
+    }
+    #mc_embed_signup .button {
         font-family: Ubuntu !important;
         font-style: normal !important;
         font-weight: 500 !important;
         font-size: 14px !important;
         line-height: 16px !important;
         display: flex;
-        align-items: center ;
+        align-items: center;
         text-align: center;
         text-transform: uppercase;
-    } 
-    #mc_embed_signup input.button{
+    }
+    #mc_embed_signup input.button {
         width: 103px !important;
         margin: 0 !important;
         height: 50px !important;
     }
-    #mc_embed_signup_scroll{
+    #mc_embed_signup_scroll {
         display: flex;
-        height: 50px;   
-        max-width: 943px !important; 
+        height: 50px;
+        max-width: 943px !important;
         position: relative !important;
         z-index: 30;
         top: -10px;
     }
-    #mc_embed_signup_scroll .button{
+    #mc_embed_signup_scroll .button {
         margin: 0px !important;
         color: $color-blanco !important;
         width: 100% !important;
@@ -1049,5 +1077,4 @@ footer div.footerButton {
         box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5) !important;
         border-radius: 0 10px 10px 0 !important;
     }
-    
 }
