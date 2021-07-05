@@ -1,88 +1,6 @@
 main {
   overflow: hidden; }
 
-section.newsletter {
-  text-align: center !important;
-  justify-content: center !important; }
-
-#mc_embed_signup form {
-  align-self: center !important;
-  text-align: center !important;
-  left: 250px; }
-
-#mc_embed_signup_scroll {
-  display: flex;
-  height: 80px;
-  max-width: 943px !important;
-  position: relative !important;
-  z-index: 30; }
-
-#mc_embed_signup input.email {
-  border-radius: 20px 0 0 20px !important;
-  margin: 0 !important;
-  font-family: Ubuntu !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 30px !important;
-  line-height: 34px !important; }
-
-div.imgNewsletter {
-  text-align: center !important; }
-  div.imgNewsletter img {
-    border-radius: 20px;
-    position: relative;
-    top: -50px;
-    z-index: 20;
-    left: -25px !important;
-    box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25); }
-
-form p {
-  font-family: Ubuntu !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 30px !important;
-  line-height: 34px !important;
-  align-items: center !important;
-  width: 690px !important;
-  text-align: center !important;
-  height: 68px !important;
-  margin-bottom: 30px;
-  margin-top: 30px; }
-
-#mc_embed_signup_scroll .button {
-  margin: 0px !important;
-  color: #ffffff !important;
-  width: 100% !important;
-  background: #661725 !important;
-  box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5) !important;
-  border-radius: 0 20px 20px 0 !important; }
-
-#mc_embed_signup input.button {
-  width: 184px !important;
-  margin: 0 !important;
-  height: 79px !important;
-  border-radius: 15px; }
-
-#mc_embed_signup .button {
-  font-family: Ubuntu !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 21px !important;
-  line-height: 24px !important;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase; }
-
-div.imgNewsletter2 {
-  display: none;
-  text-align: center !important; }
-  div.imgNewsletter2 img {
-    position: relative;
-    top: -50px;
-    z-index: 20;
-    box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25); }
-
 .navBarDesktop1 {
   background-color: none; }
 
@@ -122,8 +40,8 @@ div.imgNewsletter2 {
     color: #ffffff; }
 
 .logoNav img {
-  width: 40px;
-  height: 40px; }
+  width: 60px;
+  height: 60px; }
 
 .menuNone {
   transition: all ease .5s;
@@ -225,7 +143,8 @@ div.imgNewsletter2 {
 .imagenSoyLucas1 img {
   width: 338px;
   height: 338px;
-  padding: 0px; }
+  padding: 0px;
+  border-radius: 15px; }
 
 .textoSoyLucas1 {
   margin-left: 100px; }
@@ -277,7 +196,7 @@ div.imgNewsletter2 {
   width: 338px;
   height: 338px;
   padding: 0px;
-  border-radius: 9px;
+  border-radius: 15px;
   margin-left: 75px; }
 
 .leerSoyLucas p {
@@ -316,7 +235,7 @@ section.youtube1 {
   padding: 20px;
   text-align: center;
   text-decoration: none;
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -334,7 +253,7 @@ div.buttonDiv {
 
 .pregunta h2 {
   margin: 45px 0 0 47px;
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -346,7 +265,7 @@ div.buttonDiv {
   margin: auto; }
 
 div.titulo h1 {
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -354,7 +273,7 @@ div.titulo h1 {
   color: #661725; }
 
 div.tituloBlog h1 {
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -364,7 +283,7 @@ div.tituloBlog h1 {
 
 .titulo,
 .tituloBlog p {
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -403,7 +322,7 @@ div.tip p {
   line-height: 129.9%;
   font-style: normal;
   font-weight: normal;
-  font-family: Ubuntu; }
+  font-family: "Ubuntu", sans-serif; }
 
 .buttonDiv2 {
   display: none; }
@@ -434,7 +353,7 @@ section.blog {
 
 .custom-overlay h4 {
   color: #FFFFFF;
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -444,7 +363,7 @@ section.blog {
 
 .custom-overlay p {
   color: #FFFFFF;
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -471,20 +390,103 @@ section.newsletter {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+section.newsletter {
+  text-align: center !important;
+  justify-content: center !important; }
+
+#mc_embed_signup form {
+  align-self: center !important;
+  text-align: center !important;
+  left: 250px; }
+
+#mc_embed_signup_scroll {
+  display: flex;
+  height: 80px;
+  max-width: 943px !important;
+  position: relative !important;
+  z-index: 30; }
+
+#mc_embed_signup input.email {
+  border-radius: 20px 0 0 20px !important;
+  margin: 0 !important;
+  font-family: "Ubuntu", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  line-height: 34px !important; }
+
+div.imgNewsletter {
+  text-align: center !important; }
+  div.imgNewsletter img {
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+    z-index: 20;
+    left: -25px !important;
+    box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25); }
+
+form p {
+  font-family: "Ubuntu", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  line-height: 34px !important;
+  align-items: center !important;
+  width: 690px !important;
+  text-align: center !important;
+  height: 68px !important;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+#mc_embed_signup_scroll .button {
+  margin: 0px !important;
+  color: #ffffff !important;
+  width: 100% !important;
+  background: #661725 !important;
+  box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5) !important;
+  border-radius: 0 20px 20px 0 !important; }
+
+#mc_embed_signup input.button {
+  width: 184px !important;
+  margin: 0 !important;
+  height: 79px !important;
+  border-radius: 15px; }
+
+#mc_embed_signup .button {
+  font-family: "Ubuntu", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 21px !important;
+  line-height: 24px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase; }
+
+div.imgNewsletter2 {
+  display: none;
+  text-align: center !important; }
+  div.imgNewsletter2 img {
+    position: relative;
+    top: -50px;
+    z-index: 20;
+    box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25); }
+
 footer div.textoFooter {
   height: 200px;
   text-align: center;
   margin-top: 8%; }
   footer div.textoFooter h1 {
     color: #661725;
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 46px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    margin-top: -40px; }
   footer div.textoFooter p {
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -503,7 +505,7 @@ footer div.textoFooter {
   padding: 20px 150px 20px 150px;
   text-align: center;
   text-decoration: none;
-  font-family: Ubuntu;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -664,7 +666,7 @@ footer div.footerButton {
     height: 178px;
     border-radius: 9px; }
   div.titulo h1 {
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -685,7 +687,7 @@ footer div.footerButton {
     font-size: 40px;
     width: 40px; }
   div.tip p {
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -694,14 +696,14 @@ footer div.footerButton {
     align-items: center; }
   .pregunta h2 {
     margin: 45px 0 0 35px;
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
     margin-top: 120px; }
   .titulo p {
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -739,7 +741,7 @@ footer div.footerButton {
     height: 70%; }
   .custom-overlay h4 {
     color: #FFFFFF;
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -748,7 +750,7 @@ footer div.footerButton {
     bottom: -25px; }
   .custom-overlay p {
     color: #FFFFFF;
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -763,18 +765,34 @@ footer div.footerButton {
     border-radius: 5px; }
   .custom-overlay p::before {
     bottom: -10px; }
+  div.tituloBlog h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 40px; }
+  div.tituloBlog p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 129.9%;
+    max-width: 943px;
+    margin-bottom: 20px;
+    margin-top: 30px; }
   footer div.textoFooter {
     height: 200px;
     text-align: center; }
     footer div.textoFooter h1 {
       color: #661725;
-      font-family: Ubuntu;
+      font-family: "Ubuntu", sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
       line-height: 28px; }
     footer div.textoFooter p {
-      font-family: Ubuntu;
+      font-family: "Ubuntu", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -791,28 +809,17 @@ footer div.footerButton {
     padding: 20px 100px 20px 100px;
     text-align: center;
     text-decoration: none;
-    font-family: Ubuntu;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 24px;
     transition: 0.4s; }
-  div.tituloBlog h1 {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 40px; }
-  div.tituloBlog p {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 129.9%;
-    max-width: 943px;
-    margin-bottom: 20px;
-    margin-top: 30px; }
+  footer div.footerButton {
+    text-align: center;
+    background-image: url("../imagenes/footer-mobile2.png");
+    height: 430px;
+    background-size: cover; }
   div.imgNewsletter {
     display: none;
     text-align: center !important; }
@@ -833,13 +840,13 @@ footer div.footerButton {
   #mc_embed_signup input.email {
     border-radius: 10px 0 0 10px !important;
     margin: 0 !important;
-    font-family: Ubuntu !important;
+    font-family: "Ubuntu", sans-serif !important;
     font-style: normal !important;
     font-weight: 500 !important;
     font-size: 16px !important;
     line-height: 18px !important; }
   form p {
-    font-family: Ubuntu !important;
+    font-family: "Ubuntu", sans-serif !important;
     font-style: normal !important;
     font-size: 16px !important;
     font-weight: bold;
@@ -857,7 +864,7 @@ footer div.footerButton {
     left: 40px;
     width: 311px; }
   #mc_embed_signup .button {
-    font-family: Ubuntu !important;
+    font-family: "Ubuntu", sans-serif !important;
     font-style: normal !important;
     font-weight: 500 !important;
     font-size: 14px !important;
