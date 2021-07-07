@@ -151,8 +151,7 @@ div.imgNewsletter2 {
 }
 
 .logoNav img {
-    width: 40px;
-    height: 40px;
+    width: 80px;
 }
 
 .menuNone {
@@ -166,6 +165,7 @@ div.imgNewsletter2 {
     background: $color-base;
     height: 95px;
     width: 100%;
+    border-radius: 0%;
 }
 
 .menuFixed {
@@ -177,6 +177,7 @@ div.imgNewsletter2 {
     height: 95px;
     width: 100%;
     max-width: 1000;
+    border-radius: 0%;
 }
 
 .menuBlock {
@@ -231,9 +232,11 @@ div.imgNewsletter2 {
         background: $color-base;
         box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
         border-radius: 10px;
+        height: 60px;
         a {
             text-decoration: none;
             color: $color-blanco;
+            font-family: $fuente-ubuntu;
         }
     }
 }
@@ -280,6 +283,7 @@ div.imgNewsletter2 {
     width: 338px;
     height: 338px;
     padding: 0px;
+    border-radius: 9px;
 }
 
 .textoSoyLucas1 {
@@ -369,7 +373,8 @@ div.imgNewsletter2 {
 
 section.youtube1 {
     width: 100%;
-    // margin-left: 14%;
+    margin-left: 14%;
+    margin-right: 14%;
     //ver como quedaria
 }
 
@@ -667,6 +672,7 @@ footer div.footerButton {
     .inicioMobile {
         display: block;
         background-image: $imagen-inicio-mobile;
+        height: 618px;
     }
     .contenedorInicio {
         display: none;
@@ -724,6 +730,9 @@ footer div.footerButton {
             margin-bottom: 51px;
         }
     }
+    .ubicacionMobile {
+        // height: 700px;
+    }
     //redes flotantes
     .redesFlotantes {
         display: none;
@@ -766,6 +775,7 @@ footer div.footerButton {
     .textoSoyLucas1 {
         margin-left: 9%;
         h2 {
+            margin-top: 0px;
             margin-top: 26px;
             font-style: normal;
             font-weight: bold;
