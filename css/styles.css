@@ -270,7 +270,8 @@ div.titulo h1 {
   font-weight: bold;
   font-size: 40px;
   line-height: 46px;
-  color: #661725; }
+  color: #661725;
+  margin-bottom: 30px; }
 
 div.tituloBlog h1 {
   font-family: "Ubuntu", sans-serif;
