@@ -33,8 +33,9 @@ main {
         color: $color-negro;
     }
      :hover {
-        color: $color-blanco;
+        transform: scale(1.1, 1.1);
         text-decoration: none;
+        color: $color-negro;
     }
 }
 
@@ -54,6 +55,7 @@ main {
         color: $color-blanco;
         &:hover {
             transform: scale(1.1, 1.1);
+            color: $color-blanco;
         }
     }
 }
