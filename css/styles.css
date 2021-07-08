@@ -232,15 +232,14 @@ main {
 .grid {
   color: #FFFFFF;
   background: #661725;
-  height: 465px;
+  height: 409px;
   border-radius: 20px;
   max-width: 943px;
   position: relative; }
 
 section.youtube1 {
-  width: 100%;
-  margin-left: 14%;
-  margin-right: 14%; }
+  width: 63%;
+  margin-left: 187px; }
 
 .flex-icon1 ul,
 .flex-icon2 ul,
@@ -301,7 +300,8 @@ div.tituloBlog h1 {
   font-size: 40px;
   line-height: 46px;
   color: #661725;
-  margin-top: 120px; }
+  margin-top: 120px;
+  margin-bottom: 30px; }
 
 .titulo,
 .tituloBlog p {
@@ -311,15 +311,16 @@ div.tituloBlog h1 {
   font-size: 30px;
   line-height: 34px;
   align-items: center;
-  max-width: 943px; }
+  max-width: 943px;
+  margin-bottom: 40px; }
 
 div.fotoYoutube {
   border-radius: 20px;
   width: 702.23px;
   height: 395px;
   position: absolute;
-  top: 147px;
-  left: 420px; }
+  top: 140px;
+  left: 300px; }
 
 div.fotoYoutube2 {
   display: none; }
@@ -350,7 +351,8 @@ div.tip p {
   display: none; }
 
 section.blog {
-  width: 100%; }
+  width: 73%;
+  margin-left: 170px; }
 
 #slider {
   margin-top: 10%; }
@@ -381,7 +383,7 @@ section.blog {
   font-size: 30px;
   line-height: 34px;
   position: relative;
-  bottom: 70px; }
+  bottom: 184px; }
 
 .custom-overlay p {
   color: #FFFFFF;
@@ -392,7 +394,7 @@ section.blog {
   line-height: 28px;
   display: inline-block;
   position: relative;
-  bottom: 65px; }
+  bottom: 165px; }
 
 .custom-overlay p::before {
   content: '';
@@ -424,9 +426,10 @@ section.newsletter {
 #mc_embed_signup_scroll {
   display: flex;
   height: 80px;
-  max-width: 943px !important;
+  max-width: 990px !important;
   position: relative !important;
-  z-index: 30; }
+  z-index: 30;
+  left: 40px; }
 
 #mc_embed_signup input.email {
   border-radius: 20px 0 0 20px !important;
@@ -435,7 +438,8 @@ section.newsletter {
   font-style: normal !important;
   font-weight: 500 !important;
   font-size: 30px !important;
-  line-height: 34px !important; }
+  line-height: 34px !important;
+  width: 48% !important; }
 
 div.imgNewsletter {
   text-align: center !important; }
@@ -443,22 +447,24 @@ div.imgNewsletter {
     border-radius: 20px;
     position: relative;
     top: -50px;
+    width: 69%;
     z-index: 20;
     left: -25px !important;
     box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25); }
 
-form p {
+div#mc_embed_signup p {
   font-family: "Ubuntu", sans-serif !important;
   font-style: normal !important;
   font-weight: 500 !important;
   font-size: 30px !important;
   line-height: 34px !important;
   align-items: center !important;
-  width: 690px !important;
-  text-align: center !important;
   height: 68px !important;
   margin-bottom: 30px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  text-align: center !important;
+  margin-left: 303px;
+  width: 690px; }
 
 #mc_embed_signup_scroll .button {
   margin: 0px !important;
@@ -793,11 +799,13 @@ footer div.footerButton {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 28px; }
+    line-height: 28px;
+    margin-left: 25px; }
   .buttonDiv2 {
     display: block;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 20px; }
   .buttonDiv {
     display: none;
     justify-content: center; }
@@ -808,7 +816,8 @@ footer div.footerButton {
     margin: auto; }
   ul li i {
     font-size: 40px;
-    width: 40px; }
+    width: 40px;
+    margin-left: 10px; }
   div.tip p {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -816,7 +825,23 @@ footer div.footerButton {
     font-size: 16px;
     line-height: 18px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-left: 26px; }
+  .button1 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #661725;
+    width: 309px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24px;
+    transition-duration: 0.4s; }
   .pregunta h2 {
     margin: 45px 0 0 35px;
     font-family: "Ubuntu", sans-serif;
@@ -824,7 +849,8 @@ footer div.footerButton {
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
-    margin-top: 120px; }
+    margin-top: 120px;
+    margin-bottom: 20px; }
   .titulo p {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -833,11 +859,16 @@ footer div.footerButton {
     line-height: 129.9%;
     max-width: 943px;
     margin-bottom: 120px;
-    margin-top: 30px; }
-  section.youtube {
-    padding: 0; }
+    margin-top: 30px;
+    margin-right: 28px;
+    margin-left: 27px; }
+  section.youtube1 {
+    width: 108%;
+    margin-left: 0px; }
   .grid {
-    max-width: 414px; }
+    max-width: 430px;
+    width: 100%;
+    height: 445px; }
   div.fotoYoutube {
     display: none;
     border-radius: 20px;
@@ -855,6 +886,9 @@ footer div.footerButton {
     margin: 0;
     top: -81px;
     left: 32px; }
+  section.blog {
+    width: 100%;
+    margin-left: 10px; }
   .custom-overlay {
     position: absolute;
     top: 180px;
@@ -866,19 +900,19 @@ footer div.footerButton {
     color: #FFFFFF;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     position: relative;
-    bottom: -25px; }
+    bottom: 44px; }
   .custom-overlay p {
     color: #FFFFFF;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
     line-height: 16, 09px;
-    bottom: -15px; }
+    bottom: 44px; }
   .custom-overlay p::before {
     content: '';
     position: absolute;
@@ -894,7 +928,8 @@ footer div.footerButton {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    margin-top: 40px; }
+    margin-top: 40px;
+    margin-left: 20px; }
   div.tituloBlog p {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -903,7 +938,9 @@ footer div.footerButton {
     line-height: 129.9%;
     max-width: 943px;
     margin-bottom: 20px;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-right: 25px; }
   footer div.textoFooter {
     height: 200px;
     text-align: center; }
@@ -967,8 +1004,11 @@ footer div.footerButton {
     font-style: normal !important;
     font-weight: 500 !important;
     font-size: 16px !important;
-    line-height: 18px !important; }
-  form p {
+    line-height: 18px !important;
+    left: -20px;
+    width: 80%;
+    min-width: 204px !important; }
+  div#mc_embed_signup p {
     font-family: "Ubuntu", sans-serif !important;
     font-style: normal !important;
     font-size: 16px !important;
@@ -980,11 +1020,12 @@ footer div.footerButton {
     text-align: center !important;
     height: 36px !important;
     margin-bottom: 40px !important;
-    margin-top: -10px !important; }
+    margin-top: -10px !important;
+    margin-left: 30px; }
   #mc_embed_signup form {
     align-self: center !important;
     text-align: center !important;
-    left: 40px;
+    left: -15px;
     width: 311px; }
   #mc_embed_signup .button {
     font-family: "Ubuntu", sans-serif !important;

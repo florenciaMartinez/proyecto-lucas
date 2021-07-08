@@ -26,9 +26,9 @@ $(document).ready(function() {
         nav: false,
         responsive: {
             0: {
-                items: 1
+                items: 1.1
             },
-            600: {
+            900: {
                 items: 2
             },
             1000: {
