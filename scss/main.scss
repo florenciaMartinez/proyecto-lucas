@@ -57,12 +57,7 @@ main {
 }
 
 .logoNav img {
-<<<<<<< HEAD
     width: 80px;
-=======
-    width: 60px;
-    height: 60px;
->>>>>>> b8411d97ecbfe7b8019ee1e4e290e4e9b8c4a0b5
 }
 
 .menuNone {
@@ -194,11 +189,7 @@ main {
     width: 338px;
     height: 338px;
     padding: 0px;
-<<<<<<< HEAD
     border-radius: 9px;
-=======
-    border-radius: 15px;
->>>>>>> b8411d97ecbfe7b8019ee1e4e290e4e9b8c4a0b5
 }
 
 .textoSoyLucas1 {
@@ -350,7 +341,6 @@ div.titulo h1 {
     line-height: 46px;
     color: $color-base;
     margin-bottom: 30px;
-
 }
 
 div.tituloBlog h1 {
@@ -603,7 +593,6 @@ footer div.textoFooter {
         line-height: 46px;
         margin-bottom: 25px;
         margin-top: -40px;
-
     }
     p {
         font-family: $fuente-ubuntu;
@@ -652,6 +641,103 @@ footer div.footerButton {
 
 //medida celular
 @media (max-width: 375px) {
+    //Barra de costado
+    .container {
+        margin-top: 50px;
+        Display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone {
+        /* background-color: #36383F; */
+        /* border-radius: 40px; */
+        /* width: 300px; */
+        height: 600px;
+        Display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        /* border: 1px solid #36383F; */
+        border-radius: 20px;
+        width: 94%;
+        height: 91%;
+        /* background-color: #F5F6FA; */
+        overflow: hidden;
+    }
+    nav {
+        height: 65px;
+    }
+    #menuToggle {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #menuToggle input {
+        display: flex;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+    #menuToggle span {
+        display: flex;
+        width: 29px;
+        height: 2px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 5px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    #menuToggle input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-3px, -1px);
+        background: #36383F;
+    }
+    #menuToggle input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        box-shadow: 0 0 10px #85888C;
+        margin: -50px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background-color: #F5F6FA;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+    #menu li {
+        padding: 10px 0;
+        transition-delay: 2s;
+    }
+    #menuToggle input:checked~ul {
+        transform: none;
+    }
     //aplicado a navBar
     .menuMobile {
         display: block;
@@ -751,6 +837,7 @@ footer div.footerButton {
         display: none;
     }
     .redesMobile {
+        display: none;
         margin-top: 100px;
         ul {
             list-style: none;
@@ -1025,7 +1112,6 @@ footer div.footerButton {
         height: 430px;
         background-size: cover;
     }
-
     //Seccion newsletter
     div.imgNewsletter {
         display: none;
