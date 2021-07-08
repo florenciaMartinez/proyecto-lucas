@@ -19,10 +19,10 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: #333333; }
-  .navBarDesktop1-enlaces :hover {
-    transform: scale(1.1, 1.1);
-    text-decoration: none;
-    color: #333333; }
+    .navBarDesktop1-enlaces a:hover {
+      transform: scale(1.1, 1.1);
+      text-decoration: none;
+      color: #333333; }
 
 .navBarDesktop2 {
   justify-content: center; }
@@ -239,7 +239,8 @@ main {
 
 section.youtube1 {
   width: 63%;
-  margin-left: 187px; }
+  margin-left: 187px;
+  margin-top: 3%; }
 
 .flex-icon1 ul,
 .flex-icon2 ul,
@@ -503,7 +504,7 @@ div.imgNewsletter2 {
 footer div.textoFooter {
   height: 200px;
   text-align: center;
-  margin-top: 8%; }
+  margin-top: 11%; }
   footer div.textoFooter h1 {
     color: #661725;
     font-family: "Ubuntu", sans-serif;

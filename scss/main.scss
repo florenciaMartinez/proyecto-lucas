@@ -31,11 +31,11 @@ main {
         text-align: center;
         text-transform: uppercase;
         color: $color-negro;
-    }
-     :hover {
-        transform: scale(1.1, 1.1);
-        text-decoration: none;
-        color: $color-negro;
+        &:hover {
+            transform: scale(1.1, 1.1);
+            text-decoration: none;
+            color: $color-negro;
+        }
     }
 }
 
@@ -302,6 +302,7 @@ main {
 section.youtube1 {
     width: 63%;
     margin-left: 187px;
+    margin-top: 3%;
 }
 
 .flex-icon1 ul,
@@ -565,7 +566,6 @@ div#mc_embed_signup p {
     width: 690px;
 }
 
-
 #mc_embed_signup_scroll .button {
     margin: 0px !important;
     color: $color-blanco !important;
@@ -609,7 +609,7 @@ div.imgNewsletter2 {
 footer div.textoFooter {
     height: 200px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 11%;
     h1 {
         color: $color-base;
         font-family: $fuente-ubuntu;
@@ -1083,7 +1083,6 @@ footer div.footerButton {
         width: 100%;
         margin-left: 10px;
     }
-    
     .custom-overlay {
         position: absolute;
         top: 180px;
