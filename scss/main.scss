@@ -1,6 +1,7 @@
 $color-base:#661725;
 $color-blanco:#ffffff;
 $color-negro:#333333;
+$color-hover:#C26939;
 $fuente-ubuntu:'Ubuntu',
 sans-serif;
 $imagen-inicio:url("../imagenes/inicio-menu-d.png");
@@ -32,7 +33,8 @@ main {
         color: $color-negro;
     }
      :hover {
-        color: $color-negro;
+        color: $color-hover;
+        text-decoration: none;
     }
 }
 
@@ -50,9 +52,9 @@ main {
         text-align: center;
         text-transform: uppercase;
         color: $color-blanco;
-    }
-     :hover {
-        color: $color-blanco;
+        &:hover {
+            color: $color-hover;
+        }
     }
 }
 
@@ -144,6 +146,10 @@ main {
             color: $color-blanco;
             font-family: $fuente-ubuntu;
         }
+        &:hover {
+            background-color: $color-hover;
+            transform: scale(1.1, 1.1);
+        }
     }
 }
 
@@ -163,14 +169,22 @@ main {
     z-index: 999;
     ul {
         list-style: none;
-    }
-    li {
-        margin-bottom: 32px;
-        color: $color-base;
+        li {
+            margin-bottom: 32px;
+            // color: $color-base;
+            &:hover {
+                color: $color-hover;
+                transform: scale(1.1, 1.1);
+            }
+        }
     }
     img {
         width: 30px;
-        height: 30px
+        height: 30px;
+        &:hover {
+            color: $color-hover;
+            transform: scale(1.1, 1.1);
+        }
     }
 }
 
@@ -202,7 +216,8 @@ main {
         font-weight: bold;
         font-size: 40px;
         line-height: 46px;
-        margin-bottom: 40px;
+        margin-bottom: 26px;
+        margin-top: 0px;
     }
     p {
         font-family: $fuente-ubuntu;
@@ -210,7 +225,7 @@ main {
         font-weight: normal;
         font-size: 18px;
         line-height: 129.9%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         color: $color-negro;
     }
     h4 {
@@ -234,6 +249,7 @@ main {
         line-height: 34px;
         margin-bottom: 24px;
         color: $color-negro;
+        margin-top: 0px;
     }
     p {
         font-family: $fuente-ubuntu;
@@ -242,7 +258,7 @@ main {
         font-size: 18px;
         line-height: 129.9%;
         color: $color-negro;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 
@@ -261,6 +277,10 @@ main {
     font-size: 24px;
     line-height: 28px;
     color: $color-base;
+    &:hover {
+        color: $color-hover;
+        transform: scale(1.1, 1.1);
+    }
 }
 
 .imagenesMobile img {
@@ -652,7 +672,7 @@ footer div.footerButton {
         /* background-color: #36383F; */
         /* border-radius: 40px; */
         /* width: 300px; */
-        height: 600px;
+        height: 667px;
         Display: flex;
         justify-content: center;
         align-items: center;
