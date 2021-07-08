@@ -20,7 +20,7 @@ main {
     text-transform: uppercase;
     color: #333333; }
   .navBarDesktop1-enlaces :hover {
-    color: #C26939;
+    color: #ffffff;
     text-decoration: none; }
 
 .navBarDesktop2 {
@@ -38,7 +38,7 @@ main {
     text-transform: uppercase;
     color: #ffffff; }
     .navBarDesktop2 a:hover {
-      color: #C26939; }
+      transform: scale(1.1, 1.1); }
 
 .logoNav img {
   width: 80px; }

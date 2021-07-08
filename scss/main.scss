@@ -33,7 +33,7 @@ main {
         color: $color-negro;
     }
      :hover {
-        color: $color-hover;
+        color: $color-blanco;
         text-decoration: none;
     }
 }
@@ -53,7 +53,7 @@ main {
         text-transform: uppercase;
         color: $color-blanco;
         &:hover {
-            color: $color-hover;
+            transform: scale(1.1, 1.1);
         }
     }
 }
