@@ -642,7 +642,7 @@ footer div.footerButton {
 //medida celular
 @media (max-width: 375px) {
     //Barra de costado
-    .container {
+    .menuMobile {
         margin-top: 50px;
         Display: flex;
         justify-content: center;
@@ -657,11 +657,11 @@ footer div.footerButton {
         justify-content: center;
         align-items: center;
     }
-    .content {
+    .menuIzquierda {
         /* border: 1px solid #36383F; */
-        border-radius: 20px;
-        width: 94%;
-        height: 91%;
+        // border-radius: 20px;
+        width: 100%;
+        height: 100%;
         /* background-color: #F5F6FA; */
         overflow: hidden;
     }
@@ -718,8 +718,10 @@ footer div.footerButton {
         transform: rotate(-45deg) translate(0, -1px);
     }
     #menu {
+        font-family: $fuente-ubuntu;
+        list-style: none;
         position: absolute;
-        width: 100%;
+        width: 400px;
         height: 700px;
         box-shadow: 0 0 10px #85888C;
         margin: -50px 0 0 -50px;
@@ -730,13 +732,36 @@ footer div.footerButton {
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+        background-image: $imagen-mobile-desplegable;
     }
     #menu li {
         padding: 10px 0;
         transition-delay: 2s;
+        font-family: $fuente-ubuntu;
+        display: flex;
+    }
+    #menu li a {
+        font-family: $fuente-ubuntu;
+        color: $color-negro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
     }
     #menuToggle input:checked~ul {
         transform: none;
+    }
+    .mobileH {
+        margin-right: 144px;
+    }
+    .mobileY {
+        margin-right: 166px;
+    }
+    .mobileB {
+        margin-right: 198px;
+    }
+    .mobileC {
+        margin-right: 150px;
     }
     //aplicado a navBar
     .menuMobile {
@@ -746,8 +771,8 @@ footer div.footerButton {
         background-image: $imagen-inicio-mobile;
     }
     .ubicacionMobile {
-        justify-content: start!important;
-        align-items: flex-start!important;
+        justify-content: start !important;
+        align-items: flex-start !important;
         margin-top: 3%;
     }
     .menuBlock {
@@ -770,8 +795,8 @@ footer div.footerButton {
     //aplicado a inicio
     .inicioMobile {
         display: block;
-        background-image: $imagen-inicio-mobile;
-        height: 618px;
+        // background-image: $imagen-inicio-mobile;
+        // height: 618px;
     }
     .contenedorInicio {
         display: none;
@@ -837,13 +862,13 @@ footer div.footerButton {
         display: none;
     }
     .redesMobile {
-        display: none;
-        margin-top: 100px;
+        margin-top: 135px;
         ul {
             list-style: none;
             display: flex;
             padding: 0px;
-            justify-content: start;
+            justify-content: space-around;
+            align-items: center;
             margin: 0px;
             li {
                 margin: 0px;
