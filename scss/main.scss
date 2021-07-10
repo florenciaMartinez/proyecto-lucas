@@ -44,7 +44,7 @@ main {
     a {
         font-family: $fuente-ubuntu;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 25px;
         line-height: 29px;
         margin: 20px;
@@ -61,7 +61,7 @@ main {
 }
 
 .logoNav img {
-    width: 80px;
+    width: 74px;
 }
 
 .menuNone {
@@ -115,6 +115,12 @@ main {
     background-size: cover;
 }
 
+.textoInicioMobile a {
+    font-size: 18px;
+    font-family: $fuente-ubuntu;
+    font-weight: medium;
+}
+
 .textoInicio {
     width: 426px;
     margin-left: 200px;
@@ -141,12 +147,15 @@ main {
         width: 100%;
         background: $color-base;
         box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
+        border: none;
         border-radius: 10px;
         height: 60px;
         a {
             text-decoration: none;
             color: $color-blanco;
             font-family: $fuente-ubuntu;
+            font-weight: bold;
+            font-size: 25px;
         }
         &:hover {
             background-color: $color-hover;
@@ -297,6 +306,7 @@ main {
     border-radius: 20px;
     max-width: 943px;
     position: relative;
+    left: 15px;
 }
 
 section.youtube1 {
@@ -394,6 +404,9 @@ div.fotoYoutube {
     position: absolute;
     top: 140px;
     left: 300px;
+    iframe {
+        border-radius: 15px;
+    }
 }
 
 div.fotoYoutube2 {
@@ -401,7 +414,7 @@ div.fotoYoutube2 {
 }
 
 ul li i {
-    font-size: 60px;
+    font-size: 52px;
     width: 60px;
 }
 
@@ -423,6 +436,10 @@ div.tip p {
     font-style: normal;
     font-weight: normal;
     font-family: $fuente-ubuntu;
+}
+
+#europa {
+    margin-top: 18px;
 }
 
 .buttonDiv2 {
@@ -488,7 +505,7 @@ section.blog {
     content: '';
     position: absolute;
     width: 140px;
-    height: 8px;
+    height: 5px;
     background-color: $color-base;
     border-radius: 5px;
 }
@@ -536,6 +553,7 @@ section.newsletter {
     font-size: 30px !important;
     line-height: 34px !important;
     width: 48% !important;
+    padding-left: 30px!important;
 }
 
 div.imgNewsletter {
@@ -559,8 +577,8 @@ div#mc_embed_signup p {
     line-height: 34px !important;
     align-items: center !important;
     height: 68px !important;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 91px;
     text-align: center !important;
     margin-left: 303px;
     width: 690px;
@@ -645,8 +663,8 @@ footer div.textoFooter {
     text-decoration: none;
     font-family: $fuente-ubuntu;
     font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
+    font-weight: medium;
+    font-size: 18px;
     line-height: 24px;
     transition: 0.4s;
 }
@@ -719,7 +737,7 @@ footer div.footerButton {
         height: 2px;
         margin-bottom: 5px;
         position: relative;
-        background: #ffffff;
+        background: $color-negro;
         border-radius: 3px;
         z-index: 1;
         transform-origin: 5px 0px;
@@ -848,7 +866,7 @@ footer div.footerButton {
             line-height: 28px;
             text-align: center;
             // margin-left: 10px;
-            margin-right: 160px;
+            margin-right: 105px;
             margin-bottom: 24px;
         }
         p {
@@ -858,23 +876,22 @@ footer div.footerButton {
             line-height: 16px;
             text-align: center;
             // margin-left: 10px;
-            margin-right: 160px;
+            margin-right: 105px;
             margin-bottom: 24px;
         }
         button {
-            width: 240px;
+            width: 290px;
             height: 48px;
         }
         .textoInicioMobile {
-            margin-left: 32px;
+            margin-left: 2%;
         }
     }
     .logoMobile {
         display: block;
         img {
-            width: 90px;
-            height: 76px;
-            margin-left: 75px;
+            height: 103px;
+            margin-left: 94px;
             margin-bottom: 51px;
         }
     }
@@ -1011,6 +1028,10 @@ footer div.footerButton {
         display: flex;
         align-items: center;
         margin-left: 26px;
+        margin-top: 11px;
+    }
+    #europa {
+        margin-top: 11px;
     }
     .button1 {
         background-color: #FFFFFF;
@@ -1027,6 +1048,9 @@ footer div.footerButton {
         font-size: 21px;
         line-height: 24px;
         transition-duration: 0.4s;
+        margin-left: 1%;
+        margin-top: 10%;
+        margin-bottom: 7%;
     }
     .pregunta h2 {
         margin: 45px 0 0 35px;
@@ -1057,7 +1081,8 @@ footer div.footerButton {
     .grid {
         max-width: 430px;
         width: 100%;
-        height: 445px;
+        height: 468px;
+        left: 0px;
     }
     div.fotoYoutube {
         display: none;
@@ -1067,6 +1092,9 @@ footer div.footerButton {
         position: absolute;
         top: 147px;
         left: 445px;
+        iframe {
+            border-radius: 15px;
+        }
     }
     div.fotoYoutube2 {
         position: absolute;
@@ -1077,6 +1105,9 @@ footer div.footerButton {
         margin: 0;
         top: -81px;
         left: 32px;
+        iframe {
+            border-radius: 15px;
+        }
     }
     //Seccion blog
     section.blog {
@@ -1114,7 +1145,7 @@ footer div.footerButton {
         content: '';
         position: absolute;
         width: 85px;
-        height: 8px;
+        height: 5px;
         background-color: $color-base;
         border-radius: 5px;
     }
