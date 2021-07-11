@@ -22,7 +22,8 @@ main {
     .navBarDesktop1-enlaces a:hover {
       transform: scale(1.1, 1.1);
       text-decoration: none;
-      color: #333333; }
+      color: #333333;
+      transition: 0.4s; }
 
 .navBarDesktop2 {
   justify-content: center; }
@@ -40,7 +41,8 @@ main {
     color: #ffffff; }
     .navBarDesktop2 a:hover {
       transform: scale(1.1, 1.1);
-      color: #ffffff; }
+      color: #ffffff;
+      transition: 0.4s; }
 
 .logoNav img {
   width: 74px; }
@@ -117,7 +119,8 @@ main {
     box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
     border: none;
     border-radius: 10px;
-    height: 60px; }
+    height: 60px;
+    transition: 0.4s; }
     .textoInicio button a {
       text-decoration: none;
       color: #ffffff;
@@ -146,13 +149,15 @@ main {
       margin-bottom: 32px; }
       .redesFlotantes ul li:hover {
         color: #C26939;
-        transform: scale(1.1, 1.1); }
+        transform: scale(1.1, 1.1);
+        transition: 0.4s; }
   .redesFlotantes img {
     width: 30px;
     height: 30px; }
     .redesFlotantes img:hover {
       color: #C26939;
-      transform: scale(1.1, 1.1); }
+      transform: scale(1.1, 1.1);
+      transition: 0.4s; }
 
 .soyLucas {
   margin-left: 198px;
@@ -273,9 +278,9 @@ section.youtube1 {
   transition-duration: 0.4s; }
 
 .button1:hover {
-  background-color: #df082f;
-  color: #000000;
-  text-decoration: none; }
+  background-color: #C26939;
+  text-decoration: none;
+  color: #661725; }
 
 div.buttonDiv {
   position: relative;
@@ -541,10 +546,11 @@ footer div.textoFooter {
     footer div.textoFooter p a {
       color: #661725; }
 
-.buttonFooter {
+button.buttonFooter {
   background-color: #661725;
   box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
   border-radius: 10px;
+  border: none;
   color: #ffffff;
   padding: 20px 150px 20px 150px;
   text-align: center;
@@ -556,10 +562,10 @@ footer div.textoFooter {
   line-height: 24px;
   transition: 0.4s; }
 
-.buttonFooter:hover {
-  background-color: #df082f;
-  color: #000000;
-  text-decoration: none; }
+button.buttonFooter:hover {
+  text-decoration: none;
+  background-color: #C26939;
+  transform: scale(1.1, 1.1); }
 
 footer div.footerButton {
   text-align: center;
@@ -575,18 +581,13 @@ footer div.footerButton {
     justify-content: center;
     align-items: center; }
   .phone {
-    /* background-color: #36383F; */
-    /* border-radius: 40px; */
-    /* width: 300px; */
     height: 667px;
     Display: flex;
     justify-content: center;
     align-items: center; }
   .menuIzquierda {
-    /* border: 1px solid #36383F; */
     width: 100%;
     height: 100%;
-    /* background-color: #F5F6FA; */
     overflow: hidden; }
   nav {
     height: 65px; }
@@ -987,9 +988,10 @@ footer div.footerButton {
       width: 311px; }
       footer div.textoFooter p a {
         color: #661725; }
-  .buttonFooter {
+  button.buttonFooter {
     background-color: #661725;
     box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
+    border: none;
     border-radius: 10px;
     color: #ffffff;
     padding: 20px 100px 20px 100px;
@@ -997,10 +999,12 @@ footer div.footerButton {
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: medium;
     font-size: 21px;
     line-height: 24px;
     transition: 0.4s; }
+  button.buttonFooter:hover {
+    transform: scale(1.1, 1.1); }
   footer div.footerButton {
     text-align: center;
     background-image: url("../imagenes/footer-mobile2.png");

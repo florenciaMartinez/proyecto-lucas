@@ -35,6 +35,7 @@ main {
             transform: scale(1.1, 1.1);
             text-decoration: none;
             color: $color-negro;
+            transition: 0.4s;
         }
     }
 }
@@ -56,6 +57,7 @@ main {
         &:hover {
             transform: scale(1.1, 1.1);
             color: $color-blanco;
+            transition: 0.4s;
         }
     }
 }
@@ -79,7 +81,6 @@ main {
 }
 
 .menuFixed {
-    // transition: all ease .5s;
     display: block !important;
     position: fixed;
     z-index: 1000;
@@ -150,6 +151,7 @@ main {
         border: none;
         border-radius: 10px;
         height: 60px;
+        transition: 0.4s;
         a {
             text-decoration: none;
             color: $color-blanco;
@@ -182,10 +184,10 @@ main {
         list-style: none;
         li {
             margin-bottom: 32px;
-            // color: $color-base;
             &:hover {
                 color: $color-hover;
                 transform: scale(1.1, 1.1);
+                transition: 0.4s;
             }
         }
     }
@@ -195,6 +197,7 @@ main {
         &:hover {
             color: $color-hover;
             transform: scale(1.1, 1.1);
+            transition: 0.4s;
         }
     }
 }
@@ -219,7 +222,6 @@ main {
 
 .textoSoyLucas1 {
     margin-left: 100px;
-    // font-family: $fuente-ubuntu;
     h2 {
         color: $color-base;
         font-family: $fuente-ubuntu;
@@ -339,9 +341,9 @@ section.youtube1 {
 }
 
 .button1:hover {
-    background-color: #df082f;
-    color: #000000;
+    background-color: $color-hover;
     text-decoration: none;
+    color: $color-base;
 }
 
 div.buttonDiv {
@@ -653,10 +655,11 @@ footer div.textoFooter {
     }
 }
 
-.buttonFooter {
+button.buttonFooter {
     background-color: $color-base;
     box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
     border-radius: 10px;
+    border: none;
     color: $color-blanco;
     padding: 20px 150px 20px 150px;
     text-align: center;
@@ -669,10 +672,10 @@ footer div.textoFooter {
     transition: 0.4s;
 }
 
-.buttonFooter:hover {
-    background-color: #df082f;
-    color: #000000;
+button.buttonFooter:hover {
     text-decoration: none;
+    background-color: $color-hover;
+    transform: scale(1.1,1.1);
 }
 
 footer div.footerButton {
@@ -693,20 +696,14 @@ footer div.footerButton {
         align-items: center;
     }
     .phone {
-        /* background-color: #36383F; */
-        /* border-radius: 40px; */
-        /* width: 300px; */
         height: 667px;
         Display: flex;
         justify-content: center;
         align-items: center;
     }
     .menuIzquierda {
-        /* border: 1px solid #36383F; */
-        // border-radius: 20px;
         width: 100%;
         height: 100%;
-        /* background-color: #F5F6FA; */
         overflow: hidden;
     }
     nav {
@@ -839,8 +836,6 @@ footer div.footerButton {
     //aplicado a inicio
     .inicioMobile {
         display: block;
-        // background-image: $imagen-inicio-mobile;
-        // height: 618px;
     }
     .contenedorInicio {
         display: none;
@@ -865,7 +860,6 @@ footer div.footerButton {
             font-size: 24px;
             line-height: 28px;
             text-align: center;
-            // margin-left: 10px;
             margin-right: 105px;
             margin-bottom: 24px;
         }
@@ -875,7 +869,6 @@ footer div.footerButton {
             font-size: 14px;
             line-height: 16px;
             text-align: center;
-            // margin-left: 10px;
             margin-right: 105px;
             margin-bottom: 24px;
         }
@@ -1179,7 +1172,6 @@ footer div.footerButton {
     footer div.textoFooter {
         height: 200px;
         text-align: center;
-        // margin-top: 5%;
         h1 {
             color: $color-base;
             font-family: $fuente-ubuntu;
@@ -1201,9 +1193,10 @@ footer div.footerButton {
             }
         }
     }
-    .buttonFooter {
+    button.buttonFooter {
         background-color: $color-base;
         box-shadow: 0px 2px 8px rgba(31, 14, 17, 0.5);
+        border: none;
         border-radius: 10px;
         color: $color-blanco;
         padding: 20px 100px 20px 100px;
@@ -1211,10 +1204,14 @@ footer div.footerButton {
         text-decoration: none;
         font-family: $fuente-ubuntu;
         font-style: normal;
-        font-weight: bold;
+        font-weight: medium;
         font-size: 21px;
         line-height: 24px;
         transition: 0.4s;
+    }
+    button.buttonFooter:hover{
+        transform: scale(1.1,1.1);
+
     }
     footer div.footerButton {
         text-align: center;
