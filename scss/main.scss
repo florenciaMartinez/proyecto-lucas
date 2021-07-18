@@ -184,16 +184,12 @@ main {
         list-style: none;
         li {
             margin-bottom: 32px;
-            &:hover {
-                color: $color-hover;
-                transform: scale(1.1, 1.1);
-                transition: 0.4s;
-            }
+            color: $color-base;
+
         }
     }
-    img {
-        width: 30px;
-        height: 30px;
+    i {
+        font-size: 30px;
         &:hover {
             color: $color-hover;
             transform: scale(1.1, 1.1);
@@ -283,7 +279,7 @@ main {
     margin-left: 75px;
 }
 
-.leerSoyLucas p {
+.leerSoyLucas a {
     font-family: $fuente-ubuntu;
     font-style: normal;
     font-weight: 500;
@@ -292,7 +288,8 @@ main {
     color: $color-base;
     &:hover {
         color: $color-hover;
-        transform: scale(1.1, 1.1);
+        font-weight: bold;
+        text-decoration: none;
     }
 }
 
@@ -302,8 +299,8 @@ main {
 
 //Section Youtube
 .grid {
-    color: #FFFFFF;
-    background: #661725;
+    color: $color-blanco;
+    background: $color-base;
     height: 409px;
     border-radius: 20px;
     max-width: 943px;
@@ -340,11 +337,11 @@ section.youtube1 {
     transition-duration: 0.4s;
 }
 
-.button1:hover {
-    background-color: $color-hover;
+.button1:hover{
     text-decoration: none;
-    color: $color-base;
+    color: $color-negro;
 }
+
 
 div.buttonDiv {
     position: relative;
@@ -408,6 +405,9 @@ div.fotoYoutube {
     left: 300px;
     iframe {
         border-radius: 15px;
+        background: url(pexels-wendy-wei-1190297);
+        box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
+        border-radius: 20px;
     }
 }
 
@@ -419,6 +419,7 @@ ul li i {
     font-size: 52px;
     width: 60px;
 }
+
 
 .flex-icon1,
 .flex-icon2,
@@ -491,7 +492,7 @@ section.blog {
     bottom: 184px;
 }
 
-.custom-overlay p {
+.custom-overlay a {
     color: #FFFFFF;
     font-family: $fuente-ubuntu;
     font-style: normal;
@@ -501,9 +502,19 @@ section.blog {
     display: inline-block;
     position: relative;
     bottom: 165px;
+    transition: all 0.2s;
 }
 
-.custom-overlay p::before {
+.custom-overlay a:hover{
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.custom-overlay a::before {
     content: '';
     position: absolute;
     width: 140px;
@@ -512,7 +523,8 @@ section.blog {
     border-radius: 5px;
 }
 
-.custom-overlay p::before {
+
+.custom-overlay a::before {
     bottom: -15px;
 }
 
@@ -904,6 +916,9 @@ footer div.footerButton {
             li {
                 margin: 0px;
             }
+            i{
+                color: $color-base;
+            }
         }
     }
     #barra2 {
@@ -1100,6 +1115,9 @@ footer div.footerButton {
         left: 32px;
         iframe {
             border-radius: 15px;
+            background: url(pexels-wendy-wei-1190297.jpg);
+            box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
+            border-radius: 20px;
         }
     }
     //Seccion blog
@@ -1125,7 +1143,7 @@ footer div.footerButton {
         position: relative;
         bottom: 44px;
     }
-    .custom-overlay p {
+    .custom-overlay a {
         color: #FFFFFF;
         font-family: $fuente-ubuntu;
         font-style: normal;
@@ -1134,7 +1152,7 @@ footer div.footerButton {
         line-height: 16, 09px;
         bottom: 44px;
     }
-    .custom-overlay p::before {
+    .custom-overlay a::before {
         content: '';
         position: absolute;
         width: 85px;
@@ -1142,7 +1160,7 @@ footer div.footerButton {
         background-color: $color-base;
         border-radius: 5px;
     }
-    .custom-overlay p::before {
+    .custom-overlay a::before {
         bottom: -10px;
     }
     div.tituloBlog {

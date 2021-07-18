@@ -146,15 +146,11 @@ main {
   .redesFlotantes ul {
     list-style: none; }
     .redesFlotantes ul li {
-      margin-bottom: 32px; }
-      .redesFlotantes ul li:hover {
-        color: #C26939;
-        transform: scale(1.1, 1.1);
-        transition: 0.4s; }
-  .redesFlotantes img {
-    width: 30px;
-    height: 30px; }
-    .redesFlotantes img:hover {
+      margin-bottom: 32px;
+      color: #661725; }
+  .redesFlotantes i {
+    font-size: 30px; }
+    .redesFlotantes i:hover {
       color: #C26939;
       transform: scale(1.1, 1.1);
       transition: 0.4s; }
@@ -228,22 +224,23 @@ main {
   border-radius: 15px;
   margin-left: 75px; }
 
-.leerSoyLucas p {
+.leerSoyLucas a {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #661725; }
-  .leerSoyLucas p:hover {
+  .leerSoyLucas a:hover {
     color: #C26939;
-    transform: scale(1.1, 1.1); }
+    font-weight: bold;
+    text-decoration: none; }
 
 .imagenesMobile img {
   display: none; }
 
 .grid {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #661725;
   height: 409px;
   border-radius: 20px;
@@ -278,9 +275,8 @@ section.youtube1 {
   transition-duration: 0.4s; }
 
 .button1:hover {
-  background-color: #C26939;
   text-decoration: none;
-  color: #661725; }
+  color: #333333; }
 
 div.buttonDiv {
   position: relative;
@@ -337,7 +333,10 @@ div.fotoYoutube {
   top: 140px;
   left: 300px; }
   div.fotoYoutube iframe {
-    border-radius: 15px; }
+    border-radius: 15px;
+    background: url(pexels-wendy-wei-1190297);
+    box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
+    border-radius: 20px; }
 
 div.fotoYoutube2 {
   display: none; }
@@ -405,7 +404,7 @@ section.blog {
   position: relative;
   bottom: 184px; }
 
-.custom-overlay p {
+.custom-overlay a {
   color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -414,9 +413,18 @@ section.blog {
   line-height: 28px;
   display: inline-block;
   position: relative;
-  bottom: 165px; }
+  bottom: 165px;
+  transition: all 0.2s; }
 
-.custom-overlay p::before {
+.custom-overlay a:hover {
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px; }
+
+.custom-overlay a::before {
   content: '';
   position: absolute;
   width: 140px;
@@ -424,7 +432,7 @@ section.blog {
   background-color: #661725;
   border-radius: 5px; }
 
-.custom-overlay p::before {
+.custom-overlay a::before {
   bottom: -15px; }
 
 div#slider {
@@ -748,6 +756,8 @@ footer div.footerButton {
       margin: 0px; }
       .redesMobile ul li {
         margin: 0px; }
+      .redesMobile ul i {
+        color: #661725; }
   #barra2 {
     display: none !important; }
   .soyLucas {
@@ -912,7 +922,10 @@ footer div.footerButton {
     top: -81px;
     left: 32px; }
     div.fotoYoutube2 iframe {
-      border-radius: 15px; }
+      border-radius: 15px;
+      background: url(pexels-wendy-wei-1190297.jpg);
+      box-shadow: 4px 8px 20px 4px rgba(31, 27, 27, 0.25);
+      border-radius: 20px; }
   section.blog {
     width: 100%;
     margin-left: 10px; }
@@ -932,7 +945,7 @@ footer div.footerButton {
     line-height: 20px;
     position: relative;
     bottom: 44px; }
-  .custom-overlay p {
+  .custom-overlay a {
     color: #FFFFFF;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -940,14 +953,14 @@ footer div.footerButton {
     font-size: 14px;
     line-height: 16, 09px;
     bottom: 44px; }
-  .custom-overlay p::before {
+  .custom-overlay a::before {
     content: '';
     position: absolute;
     width: 85px;
     height: 5px;
     background-color: #661725;
     border-radius: 5px; }
-  .custom-overlay p::before {
+  .custom-overlay a::before {
     bottom: -10px; }
   div.tituloBlog h1 {
     font-family: "Ubuntu", sans-serif;
